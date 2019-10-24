@@ -37,13 +37,14 @@ stair_data = stair_herg.simulate(np.log(p_true), stair_times)
 stair_data += np.random.normal(0, 0.15, size=stair_data.shape)
 
 # Score
-problem = pints.SingleOutputProblem(ap_herg, ap_times, ap_data)
+problem = pints.SingleOutputProblem(stair_herg, stair_times, stair_data)
 score = pints.RootMeanSquaredError(problem)
 
 # Load parameters
-files = glob.glob('./herg-out/ap-fit-*.txt')
+files = glob.glob('./herg-out/stair-fit-*.txt')
 p_all = []
 s_all = []
+f_all = []
 for f in files:
     try:
         p = np.log(np.loadtxt(f))
@@ -52,47 +53,56 @@ for f in files:
         continue
     p_all.append(p)
     s_all.append(s)
+    f_all.append(f)
 
 # Sort
 order = np.argsort(s_all)  # (use [::-1] for LL)
 s_all = np.asarray(s_all)[order]
 p_all = np.asarray(p_all)[order]
+f_all = np.asarray(f_all)[order]
 print(s_all)
 
 # Best N
 N = 50
 s_best = s_all[:N]
 p_best = p_all[:N]
+f_best = f_all[:N]
 print(s_best)
+
+# Save ranking
+with open('herg-out/stair-fit-rank.txt', 'w') as f:
+    for ff in f_all:
+        f.write(os.path.basename(ff) + '\n')
 
 # Inspect plot
 fig, axes = plt.subplots(2, 2, figsize=(14, 6))
 
-axes[0, 0].plot(ap_times, ap_herg.v_func(ap_times), c='#7f7f7f')
+axes[0, 0].plot(stair_times, stair_herg.v_func(stair_times), c='#7f7f7f')
 axes[0, 0].set_ylabel('Voltage (mV)')
 axes[0, 0].set_xticks([])
-axes[1, 0].plot(ap_times, ap_data, alpha=0.5, c='#1f77b4', label='data')
+axes[1, 0].plot(stair_times, stair_data, alpha=0.5, c='#1f77b4', label='data')
 for i, p in enumerate(p_best):
-    fitted = ap_herg.simulate(p, ap_times)
-    axes[1, 0].plot(ap_times, fitted, c='#ff7f0e',
-            label='__nolegend__' if i else 'Fitted')
-axes[1, 0].legend()
+    predict = stair_herg.simulate(p, stair_times)
+    axes[1, 0].plot(stair_times, predict, c='#ff7f0e',
+            label='__nolegend__' if i else 'Prediction')
+axes[1, 0].legend(loc=4)
+axes[1, 0].set_ylim([-2, 8])
 axes[1, 0].set_ylabel('Current (pA)')
 axes[1, 0].set_xlabel('Time (ms)')
 
-axes[0, 1].plot(stair_times, stair_herg.v_func(stair_times), c='#7f7f7f')
+axes[0, 1].plot(ap_times, ap_herg.v_func(ap_times), c='#7f7f7f')
 axes[0, 1].set_ylabel('Voltage (mV)')
 axes[0, 1].set_xticks([])
-axes[1, 1].plot(stair_times, stair_data, alpha=0.5, c='#1f77b4', label='data')
+axes[1, 1].plot(ap_times, ap_data, alpha=0.5, c='#1f77b4', label='data')
 for i, p in enumerate(p_best):
-    predict = stair_herg.simulate(p, stair_times)
-    axes[1, 1].plot(stair_times, predict, c='#ff7f0e',
-            label='__nolegend__' if i else 'Prediction')
-axes[1, 1].legend(loc=4)
-axes[1, 1].set_ylim([-2, 8])
+    fitted = ap_herg.simulate(p, ap_times)
+    axes[1, 1].plot(ap_times, fitted, c='#ff7f0e',
+            label='__nolegend__' if i else 'Fitted')
+axes[1, 1].legend()
 axes[1, 1].set_ylabel('Current (pA)')
 axes[1, 1].set_xlabel('Time (ms)')
+
 plt.subplots_adjust(hspace=0)
-plt.savefig('%s/ap-predict-staircase.png' % (savedir), dpi=200,
+plt.savefig('%s/staircase-predict-ap.png' % (savedir), dpi=200,
         bbox_inches='tight')
 plt.close()
