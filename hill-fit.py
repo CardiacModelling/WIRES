@@ -63,8 +63,9 @@ plt.plot(xfunc, hill(xfunc, *p0_all[-1]))
 plt.ylabel('Fraction block')
 plt.xlabel('Concentration')
 plt.xscale('log')
-plt.savefig('hill-fig/example', bbox_inches='tight')
-plt.savefig('hill-fig/example.pdf', format='pdf', bbox_inches='tight')
+plt.savefig('hill-fig/dose-response-example', bbox_inches='tight')
+plt.savefig('hill-fig/dose-response-example.pdf', format='pdf',
+        bbox_inches='tight')
 plt.close()
 
 # Inspect contour
@@ -106,8 +107,9 @@ cbar = fig.colorbar(c, ax=ax)
 cbar.ax.set_ylabel('RMSE')
 plt.subplots_adjust(wspace=0, hspace=0)
 plt.tight_layout()
-plt.savefig('hill-fig/simple-fit', dpi=200, bbox_inches='tight')
-plt.savefig('hill-fig/simple-fit.pdf', format='pdf', bbox_inches='tight')
+plt.savefig('hill-fig/dose-response-simple-fit', dpi=200, bbox_inches='tight')
+plt.savefig('hill-fig/dose-response-simple-fit.pdf', format='pdf',
+        bbox_inches='tight')
 plt.close()
 
 '''
@@ -191,8 +193,9 @@ cbar = fig.colorbar(c, ax=ax)
 cbar.ax.set_ylabel('RMSE')
 plt.subplots_adjust(wspace=0, hspace=0)
 plt.tight_layout()
-plt.savefig('hill-fig/simple-transformed-fit', dpi=200, bbox_inches='tight')
-plt.savefig('hill-fig/simple-transformed-fit.pdf', format='pdf',
+plt.savefig('hill-fig/dose-response-simple-transformed-fit', dpi=200,
+        bbox_inches='tight')
+plt.savefig('hill-fig/dose-response-simple-transformed-fit.pdf', format='pdf',
         bbox_inches='tight')
 plt.close()
 
