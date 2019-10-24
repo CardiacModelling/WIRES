@@ -77,7 +77,7 @@ axes[1, 0].legend(loc=1)
 axes[1, 0].set_ylim([-0.5, 8.5])
 axes[1, 0].set_ylabel('Current\n(normalised)', fontsize=13)
 axes[1, 0].set_xticks([])
-axes[1, 0].text(.025, .85, 'Training', ha='left', fontsize=14, color='r',
+axes[1, 0].text(.025, .85, 'Training', ha='left', fontsize=14, color='C2',
         transform=axes[1, 0].transAxes)
 axes[2, 0].plot(ap_times, ap_data, alpha=0.5, c='#1f77b4', label='Data')
 for i, p in enumerate(stair_p_best):
@@ -88,7 +88,7 @@ axes[2, 0].legend(loc=1)
 axes[2, 0].set_ylim([-0.5, 8.5])
 axes[2, 0].set_ylabel('Current\n(normalised)', fontsize=13)
 axes[2, 0].set_xlabel('Time (ms)', fontsize=16)
-axes[2, 0].text(.025, .85, 'Validation', ha='left', fontsize=14, color='r',
+axes[2, 0].text(.025, .85, 'Validation', ha='left', fontsize=14, color='C3',
         transform=axes[2, 0].transAxes)
 
 axes[1, 0].arrow(1.035, 0.5, 0.175, 0, clip_on=False, width=0.02,
@@ -110,7 +110,7 @@ axes[1, 1].legend(loc=2)
 axes[1, 1].set_ylim([-1.5, 9.5])
 axes[1, 1].set_ylabel('Current\n(normalised)', fontsize=13)
 axes[1, 1].set_xticks([])
-axes[1, 1].text(.975, .85, 'Validation', ha='right', fontsize=14, color='r',
+axes[1, 1].text(.975, .85, 'Validation', ha='right', fontsize=14, color='C3',
         transform=axes[1, 1].transAxes)
 axes[2, 1].plot(stair_times, stair_data, alpha=0.5, c='#1f77b4', label='Data')
 for i, p in enumerate(stair_p_best):
@@ -121,7 +121,7 @@ axes[2, 1].legend(loc=2)
 axes[2, 1].set_ylim([-1.5, 9.5])
 axes[2, 1].set_ylabel('Current\n(normalised)', fontsize=13)
 axes[2, 1].set_xlabel('Time (ms)', fontsize=16)
-axes[2, 1].text(.975, .85, 'Training', ha='right', fontsize=14, color='r',
+axes[2, 1].text(.975, .85, 'Training', ha='right', fontsize=14, color='C2',
         transform=axes[2, 1].transAxes)
 
 plt.subplots_adjust(hspace=0.05, wspace=0.4)
