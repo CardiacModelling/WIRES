@@ -18,9 +18,14 @@ def hill(x, ic50, n):
     n = np.float(n)
     return 1. / (1. + (ic50 / x) ** n)
 
+def transformed_func(x, tt1, tt2):
+    ut1 = np.exp(tt1)
+    ut2 = np.copy(tt2)
+    return hill(x, ut1, ut2)
+
 # Generate
 xdata = np.array([0.1, 0.5, 1.0, 5.0, 10.0])
-xfunc = np.logspace(-3., 3., 100)
+xfunc = np.logspace(-5., 5., 200)
 ic50_true = 1.2
 n_true = 0.85
 ydata = hill(xdata, ic50_true, n_true)
@@ -46,8 +51,15 @@ for _ in range(20):
             bounds=([ic50l, nl], [ic50u, nu]))
     p0_all.append(p0)
     popt_all.append(popt)
+p0 = [1., 0.3]
+popt, pcov = curve_fit(hill, xdata, ydata, p0=p0,
+        bounds=([ic50l, nl], [ic50u, nu]))
+p0_all.append(p0)
+popt_all.append(popt)
 plt.plot(xdata, ydata, 'x')
 plt.plot(xfunc, hill(xfunc, *popt))
+plt.plot(xfunc, hill(xfunc, *p0_all[-5]))
+plt.plot(xfunc, hill(xfunc, *p0_all[-1]))
 plt.ylabel('Fraction block')
 plt.xlabel('Concentration')
 plt.xscale('log')
@@ -77,12 +89,18 @@ fig, ax = plt.subplots()
 c = ax.pcolormesh(IC50, N, E, cmap='viridis_r', vmin=z_min, vmax=z_max)
 # cmap: 'RdBu', 'YlGnBu'
 #ax.plot(ic50_true, n_true, marker='x', c='w', ls='')
-for p0, popt in zip(p0_all, popt_all):
-    ax.plot([p0[0], popt[0]], [p0[1], popt[1]], marker='x', c='#cccccc',
-            ls='--', alpha=1)
+for i, (p0, popt) in enumerate(zip(p0_all, popt_all)):
+    if i == len(p0_all) - 5:
+        colour = 'C2'
+    elif i == len(p0_all) - 1:
+        colour = 'C3'
+    else:
+        colour = '#cccccc'
+    ax.plot([p0[0], popt[0]], [p0[1], popt[1]], marker='x', c=colour, ls='--',
+            alpha=1)
     ax.plot(popt[0], popt[1], marker='x', c='C1', ls='')
 ax.axis([x_min, x_max, y_min, y_max])
-ax.set_xlabel('IC50')
+ax.set_xlabel(r'IC$_{50}$')
 ax.set_ylabel('Hill coefficient')
 cbar = fig.colorbar(c, ax=ax)
 cbar.ax.set_ylabel('RMSE')
@@ -92,23 +110,14 @@ plt.savefig('hill-fig/simple-fit', dpi=200, bbox_inches='tight')
 plt.savefig('hill-fig/simple-fit.pdf', format='pdf', bbox_inches='tight')
 plt.close()
 
+'''
 # Simple transformed fit
-def transformed_func(x, tt1, tt2):
-    ut1 = np.exp(tt1)
-    ut2 = np.copy(tt2)
-    return hill(x, ut1, ut2)
 tpopt_all = []
 for p0 in p0_all:
     tp0 = [np.log(p0[0]), p0[1]]
     tpopt, pcov = curve_fit(transformed_func, xdata, ydata, p0=tp0,
             bounds=([np.log(ic50l), nl], [np.log(ic50u), nu]))
     tpopt_all.append(tpopt)
-plt.plot(xdata, ydata, 'x')
-plt.plot(xfunc, transformed_func(xfunc, *tpopt))
-plt.ylabel('Fraction block')
-plt.xlabel('Concentration')
-plt.xscale('log')
-plt.close()
 
 # Inspect transformed contour
 tic50_sweep = np.log(np.logspace(np.log10(ic50l), np.log10(ic50u), 250))
@@ -131,13 +140,14 @@ for p0, tpopt in zip(p0_all, tpopt_all):
             c='#cccccc', ls='--', alpha=1)
     ax.plot(tpopt[0], tpopt[1], marker='x', c='C1', ls='')
 ax.axis([x_min, x_max, y_min, y_max])
-ax.set_xlabel('ln(IC50)')
+ax.set_xlabel(r'$\ln$(IC$_{50})$')
 ax.set_ylabel('Hill coefficient')
 cbar = fig.colorbar(c, ax=ax)
 cbar.ax.set_ylabel('RMSE')
 plt.subplots_adjust(wspace=0, hspace=0)
 plt.tight_layout()
 plt.close()
+'''
 
 # Simple transformed fit (resampled p0)
 #def transformed2_func(x, tt1, tt2):
@@ -152,12 +162,6 @@ for _ in range(20):
             bounds=([np.log(ic50l), nl], [np.log(ic50u), nu]))
     t2p0_all.append(t2p0)
     t2popt_all.append(t2popt)
-plt.plot(xdata, ydata, 'x')
-plt.plot(xfunc, transformed_func(xfunc, *t2popt))
-plt.ylabel('Fraction block')
-plt.xlabel('Concentration')
-plt.xscale('log')
-plt.close()
 
 # Inspect transformed contour (resampled p0)
 t2ic50_sweep = np.log(np.logspace(np.log10(ic50l), np.log10(ic50u), 250))
@@ -181,7 +185,7 @@ for tp0, tpopt in zip(t2p0_all, t2popt_all):
             ls='--', alpha=1)
     ax.plot(tpopt[0], tpopt[1], marker='x', c='C1', ls='')
 ax.axis([x_min, x_max, y_min, y_max])
-ax.set_xlabel('ln(IC50)')
+ax.set_xlabel(r'$\ln$(IC$_{50})$')
 ax.set_ylabel('Hill coefficient')
 cbar = fig.colorbar(c, ax=ax)
 cbar.ax.set_ylabel('RMSE')
