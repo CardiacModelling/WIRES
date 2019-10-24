@@ -45,7 +45,7 @@ class Model(pints.ForwardModel):
         else:
             x0 = self._ic(p)
         try:
-	    return odeint(self._rhs, x0, times, args=(p,))
+            return odeint(self._rhs, x0, times, args=(p,))
         except:
             return np.inf * np.ones((len(times), 2))
 
