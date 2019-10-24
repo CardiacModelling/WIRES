@@ -20,6 +20,7 @@ class Model(pints.ForwardModel):
         return v_func(times)
 
     def _rhs(self, x, t, p):
+        p = np.exp(p)
         V = self.v_func(t)
 
         inf1 = 1.0 / (1.0 + np.exp((-p[0] - V) / p[1]))

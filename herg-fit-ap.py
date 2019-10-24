@@ -34,7 +34,7 @@ ap_herg = herg.Model(ap_protocol, set_x0=None)
 
 # Generate data
 np.random.seed(101)  # fix data noise seed
-data = ap_herg.simulate(p_true, times)
+data = ap_herg.simulate(np.log(p_true), times)
 data += np.random.normal(0, 0.15, size=data.shape)
 
 # Set fitting seed
@@ -45,21 +45,23 @@ np.random.seed(fit_seed)
 # Score
 problem = pints.SingleOutputProblem(ap_herg, times, data)
 score = pints.RootMeanSquaredError(problem)
+print('Score at true value: ', score(np.log(p_true)))
 
 # Fit
 for _ in range(100):
-    try:
-        # Randomly pick a starting point
-        x0 = p_true * 2. * np.random.rand(len(p_true))
-        score(x0)  # Make sure it can be simulated
-    except ValueError:
+    # Randomly pick a starting point
+    x0 = p_true * np.random.uniform(0.66, 1.5, size=len(p_true))
+    x0 = np.log(x0)
+    # Make sure it can be simulated
+    if not np.isfinite(score(x0)):
         continue
-    break
+    else:
+        break
 print('Starting point: ', x0)
 
 # Create optimiser
 print('Starting error: ', score(x0))
-opt = pints.OptimisationController(score, x0, method=pints.NelderMead)
+opt = pints.OptimisationController(score, x0, method=pints.CMAES)
 opt.set_max_iterations(None)
 opt.set_max_unchanged_iterations(iterations=100, threshold=1e-5)
 opt.set_parallel(False)
@@ -69,6 +71,7 @@ try:
     with np.errstate(all='ignore'):
         # Tell numpy not to issue warnings
         p, s = opt.run()
+        p = np.exp(p)
         print('Found solution:          True parameters:' )
         for k, x in enumerate(p):
             print(pints.strfloat(x) + '    ' + pints.strfloat(p_true[k]))
@@ -83,7 +86,7 @@ with open('%s/ap-fit-%s.txt' % (savedir, fit_id), 'w') as f:
 
 # Inspect plot
 fig, axes = plt.subplots(2, 2, figsize=(14, 6))
-fitted = problem.evaluate(p)
+fitted = problem.evaluate(np.log(p))
 axes[0, 0].plot(times, ap_herg.v_func(times), c='#7f7f7f')
 axes[0, 0].set_ylabel('Voltage (mV)')
 axes[1, 0].plot(times, data, alpha=0.5, label='data')
@@ -94,7 +97,7 @@ axes[1, 0].set_xlabel('Time (ms)')
 stair_protocol = np.loadtxt('staircase-protocol.csv', delimiter=',')
 stair_herg = herg.Model(stair_protocol, set_x0=None)
 times = np.arange(0, 15.3 * 1e3, 0.2)
-data = stair_herg.simulate(p_true, times)
+data = stair_herg.simulate(np.log(p_true), times)
 predict = stair_herg.simulate(p, times)
 axes[0, 1].plot(times, stair_herg.v_func(times), c='#7f7f7f')
 axes[0, 1].set_ylabel('Voltage (mV)')
