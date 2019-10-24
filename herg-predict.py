@@ -127,4 +127,6 @@ axes[2, 1].text(.975, .85, 'Training', ha='right', fontsize=14, color='r',
 plt.subplots_adjust(hspace=0.05, wspace=0.4)
 plt.savefig('%s/herg-predict.png' % (savedir), dpi=200,
         bbox_inches='tight')
+plt.savefig('%s/herg-predict.pdf' % (savedir), format='pdf',
+        bbox_inches='tight')
 plt.close()
