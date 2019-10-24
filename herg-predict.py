@@ -66,7 +66,7 @@ stair_p_best = stair_p_all[:bestn]
 fig, axes = plt.subplots(3, 2, figsize=(14, 6))
 
 axes[0, 0].plot(ap_times, ap_herg.v_func(ap_times), c='#7f7f7f')
-axes[0, 0].set_ylabel('Voltage (mV)')
+axes[0, 0].set_ylabel('Voltage (mV)', fontsize=14)
 axes[0, 0].set_xticks([])
 axes[1, 0].plot(ap_times, ap_data, alpha=0.5, c='#1f77b4', label='Data')
 for i, p in enumerate(ap_p_best):
@@ -75,7 +75,7 @@ for i, p in enumerate(ap_p_best):
             label='__nolegend__' if i else 'Fitted')
 axes[1, 0].legend(loc=1)
 axes[1, 0].set_ylim([-0.5, 8.5])
-axes[1, 0].set_ylabel('Current (pA)')
+axes[1, 0].set_ylabel('Current\n(normalised)', fontsize=13)
 axes[1, 0].set_xticks([])
 axes[1, 0].text(.025, .85, 'Training', ha='left', fontsize=14, color='r',
         transform=axes[1, 0].transAxes)
@@ -86,20 +86,20 @@ for i, p in enumerate(stair_p_best):
             label='__nolegend__' if i else 'Prediction')
 axes[2, 0].legend(loc=1)
 axes[2, 0].set_ylim([-0.5, 8.5])
-axes[2, 0].set_ylabel('Current (pA)')
-axes[2, 0].set_xlabel('Time (ms)')
+axes[2, 0].set_ylabel('Current\n(normalised)', fontsize=13)
+axes[2, 0].set_xlabel('Time (ms)', fontsize=16)
 axes[2, 0].text(.025, .85, 'Validation', ha='left', fontsize=14, color='r',
         transform=axes[2, 0].transAxes)
 
-axes[1, 0].arrow(1.075, 0.5, 0.175, 0, clip_on=False, width=0.02,
+axes[1, 0].arrow(1.035, 0.5, 0.175, 0, clip_on=False, width=0.02,
         length_includes_head=True, head_width=0.075, head_length=0.05,
         transform=axes[1, 0].transAxes)
-axes[2, 1].arrow(-0.15, 0.5, -0.175, 0, clip_on=False, width=0.02,
+axes[2, 1].arrow(-0.19, 0.5, -0.175, 0, clip_on=False, width=0.02,
         length_includes_head=True, head_width=0.075, head_length=0.05,
         transform=axes[2, 1].transAxes)
 
 axes[0, 1].plot(stair_times, stair_herg.v_func(stair_times), c='#7f7f7f')
-axes[0, 1].set_ylabel('Voltage (mV)')
+axes[0, 1].set_ylabel('Voltage (mV)', fontsize=14)
 axes[0, 1].set_xticks([])
 axes[1, 1].plot(stair_times, stair_data, alpha=0.5, c='#1f77b4', label='Data')
 for i, p in enumerate(ap_p_best):
@@ -108,7 +108,7 @@ for i, p in enumerate(ap_p_best):
             label='__nolegend__' if i else 'Prediction')
 axes[1, 1].legend(loc=2)
 axes[1, 1].set_ylim([-1.5, 9.5])
-axes[1, 1].set_ylabel('Current (pA)')
+axes[1, 1].set_ylabel('Current\n(normalised)', fontsize=13)
 axes[1, 1].set_xticks([])
 axes[1, 1].text(.975, .85, 'Validation', ha='right', fontsize=14, color='r',
         transform=axes[1, 1].transAxes)
@@ -119,8 +119,8 @@ for i, p in enumerate(stair_p_best):
             label='__nolegend__' if i else 'Fitted')
 axes[2, 1].legend(loc=2)
 axes[2, 1].set_ylim([-1.5, 9.5])
-axes[2, 1].set_ylabel('Current (pA)')
-axes[2, 1].set_xlabel('Time (ms)')
+axes[2, 1].set_ylabel('Current\n(normalised)', fontsize=13)
+axes[2, 1].set_xlabel('Time (ms)', fontsize=16)
 axes[2, 1].text(.975, .85, 'Training', ha='right', fontsize=14, color='r',
         transform=axes[2, 1].transAxes)
 
