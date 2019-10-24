@@ -6,7 +6,7 @@ import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 
-savedir = './hill-out/'
+savedir = './hill-fig/'
 if not os.path.isdir(savedir):
     os.makedirs(savedir)
 
@@ -51,7 +51,8 @@ plt.plot(xfunc, hill(xfunc, *popt))
 plt.ylabel('Fraction block')
 plt.xlabel('Concentration')
 plt.xscale('log')
-plt.savefig('hill-out/example')
+plt.savefig('hill-fig/example', bbox_inches='tight')
+plt.savefig('hill-fig/example.pdf', format='pdf', bbox_inches='tight')
 plt.close()
 
 # Inspect contour
@@ -75,7 +76,7 @@ z_min, z_max = np.min(E), np.max(E)
 fig, ax = plt.subplots()
 c = ax.pcolormesh(IC50, N, E, cmap='viridis_r', vmin=z_min, vmax=z_max)
 # cmap: 'RdBu', 'YlGnBu'
-ax.plot(ic50_true, n_true, marker='x', c='w', ls='')
+#ax.plot(ic50_true, n_true, marker='x', c='w', ls='')
 for p0, popt in zip(p0_all, popt_all):
     ax.plot([p0[0], popt[0]], [p0[1], popt[1]], marker='x', c='#cccccc',
             ls='--', alpha=1)
@@ -87,7 +88,8 @@ cbar = fig.colorbar(c, ax=ax)
 cbar.ax.set_ylabel('RMSE')
 plt.subplots_adjust(wspace=0, hspace=0)
 plt.tight_layout()
-plt.savefig('hill-out/simple-fit', dpi=200, bbox_inches='tight')
+plt.savefig('hill-fig/simple-fit', dpi=200, bbox_inches='tight')
+plt.savefig('hill-fig/simple-fit.pdf', format='pdf', bbox_inches='tight')
 plt.close()
 
 # Simple transformed fit
@@ -123,7 +125,7 @@ z_min, z_max = np.min(TE), np.max(TE)
 fig, ax = plt.subplots()
 c = ax.pcolormesh(TIC50, TN, TE, cmap='viridis_r', vmin=z_min, vmax=z_max)
 # cmap: 'RdBu', 'YlGnBu'
-ax.plot(np.log(ic50_true), n_true, marker='x', c='w', ls='')
+#ax.plot(np.log(ic50_true), n_true, marker='x', c='w', ls='')
 for p0, tpopt in zip(p0_all, tpopt_all):
     ax.plot([np.log(p0[0]), tpopt[0]], [p0[1], tpopt[1]], marker='x',
             c='#cccccc', ls='--', alpha=1)
@@ -173,7 +175,7 @@ z_min, z_max = np.min(T2E), np.max(T2E)
 fig, ax = plt.subplots()
 c = ax.pcolormesh(T2IC50, T2N, T2E, cmap='viridis_r', vmin=z_min, vmax=z_max)
 # cmap: 'RdBu', 'YlGnBu'
-ax.plot(np.log(ic50_true), n_true, marker='x', c='w', ls='')
+#ax.plot(np.log(ic50_true), n_true, marker='x', c='w', ls='')
 for tp0, tpopt in zip(t2p0_all, t2popt_all):
     ax.plot([tp0[0], tpopt[0]], [tp0[1], tpopt[1]], marker='x', c='#cccccc',
             ls='--', alpha=1)
@@ -185,6 +187,8 @@ cbar = fig.colorbar(c, ax=ax)
 cbar.ax.set_ylabel('RMSE')
 plt.subplots_adjust(wspace=0, hspace=0)
 plt.tight_layout()
-plt.savefig('hill-out/simple-transformed-fit', dpi=200, bbox_inches='tight')
+plt.savefig('hill-fig/simple-transformed-fit', dpi=200, bbox_inches='tight')
+plt.savefig('hill-fig/simple-transformed-fit.pdf', format='pdf',
+        bbox_inches='tight')
 plt.close()
 
