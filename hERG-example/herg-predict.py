@@ -79,8 +79,8 @@ axes[1, 0].legend(loc=1, ncol=2)
 axes[1, 0].set_ylim([-0.5, 8.5])
 axes[1, 0].set_ylabel('Current\n(normalised)', fontsize=13)
 axes[1, 0].set_xticks([])
-axes[1, 0].text(.025, .85, 'Training', ha='left', fontsize=14, color='#1f77b4',
-        transform=axes[1, 0].transAxes)
+axes[1, 0].text(.025, .875, 'Training', ha='left', fontsize=14,
+        color='#1f77b4', transform=axes[1, 0].transAxes)
 axes[2, 0].plot(ap_times, ap_data, alpha=0.8, c='#7f7f7f', label='Data')
 for i, p in enumerate(stair_p_best):
     fitted = ap_herg.simulate(p, ap_times)
@@ -91,7 +91,7 @@ axes[2, 0].legend(loc=1, ncol=2)
 axes[2, 0].set_ylim([-0.5, 8.5])
 axes[2, 0].set_ylabel('Current\n(normalised)', fontsize=13)
 axes[2, 0].set_xlabel('Time (ms)', fontsize=16)
-axes[2, 0].text(.025, .85, 'Validation', ha='left', fontsize=14,
+axes[2, 0].text(.025, .875, 'Validation', ha='left', fontsize=14,
         color='#ff7f0e', transform=axes[2, 0].transAxes)
 
 axes[1, 0].arrow(1.025, 0.5, 0.14, 0, clip_on=False, width=0.02,
@@ -110,11 +110,11 @@ for i, p in enumerate(ap_p_best):
     alpha = 0.35 if i else 0.6
     axes[1, 1].plot(stair_times, predict, c='#ff7f0e', alpha=alpha,
             label='__nolegend__' if i else 'Prediction')
-axes[1, 1].legend(loc=2, ncol=2)
+axes[1, 1].legend(loc=1, ncol=2)
 axes[1, 1].set_ylim([-1.5, 9.5])
 axes[1, 1].set_ylabel('Current\n(normalised)', fontsize=13)
 axes[1, 1].set_xticks([])
-axes[1, 1].text(.975, .85, 'Validation', ha='right', fontsize=14,
+axes[1, 1].text(.025, .875, 'Validation', ha='left', fontsize=14,
         color='#ff7f0e', transform=axes[1, 1].transAxes)
 axes[2, 1].plot(stair_times, stair_data, alpha=0.8, c='#7f7f7f', label='Data')
 for i, p in enumerate(stair_p_best):
@@ -122,11 +122,11 @@ for i, p in enumerate(stair_p_best):
     alpha = 0.35 if i else 0.6
     axes[2, 1].plot(stair_times, predict, c='#1f77b4', alpha=alpha,
             label='__nolegend__' if i else 'Fit')
-axes[2, 1].legend(loc=2, ncol=2)
+axes[2, 1].legend(loc=1, ncol=2)
 axes[2, 1].set_ylim([-1.5, 9.5])
 axes[2, 1].set_ylabel('Current\n(normalised)', fontsize=13)
 axes[2, 1].set_xlabel('Time (ms)', fontsize=16)
-axes[2, 1].text(.975, .85, 'Training', ha='right', fontsize=14,
+axes[2, 1].text(.025, .875, 'Training', ha='left', fontsize=14,
         color='#1f77b4', transform=axes[2, 1].transAxes)
 
 plt.subplots_adjust(hspace=0.075, wspace=0.3)
