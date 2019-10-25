@@ -63,68 +63,73 @@ for f in files:
 stair_p_best = stair_p_all[:bestn]
 
 # Plot
-fig, axes = plt.subplots(3, 2, figsize=(14, 6))
+fig, axes = plt.subplots(3, 2, figsize=(14, 7),
+        gridspec_kw={'height_ratios': [1, 2, 2]})
 
 axes[0, 0].plot(ap_times, ap_herg.v_func(ap_times), c='#7f7f7f')
-axes[0, 0].set_ylabel('Voltage (mV)', fontsize=14)
+axes[0, 0].set_ylabel('Voltage (mV)', fontsize=12)
 axes[0, 0].set_xticks([])
-axes[1, 0].plot(ap_times, ap_data, alpha=0.5, c='#1f77b4', label='Data')
+axes[1, 0].plot(ap_times, ap_data, alpha=0.8, c='#7f7f7f', label='Data')
 for i, p in enumerate(ap_p_best):
     fitted = ap_herg.simulate(p, ap_times)
-    axes[1, 0].plot(ap_times, fitted, c='#ff7f0e',
+    alpha = 0.35 if i else 0.6
+    axes[1, 0].plot(ap_times, fitted, c='#2ca02c', alpha=alpha,
             label='__nolegend__' if i else 'Fitted')
 axes[1, 0].legend(loc=1)
 axes[1, 0].set_ylim([-0.5, 8.5])
 axes[1, 0].set_ylabel('Current\n(normalised)', fontsize=13)
 axes[1, 0].set_xticks([])
-axes[1, 0].text(.025, .85, 'Training', ha='left', fontsize=14, color='C2',
+axes[1, 0].text(.025, .85, 'Training', ha='left', fontsize=14, color='#2ca02c',
         transform=axes[1, 0].transAxes)
-axes[2, 0].plot(ap_times, ap_data, alpha=0.5, c='#1f77b4', label='Data')
+axes[2, 0].plot(ap_times, ap_data, alpha=0.8, c='#7f7f7f', label='Data')
 for i, p in enumerate(stair_p_best):
     fitted = ap_herg.simulate(p, ap_times)
-    axes[2, 0].plot(ap_times, fitted, c='#ff7f0e',
+    alpha = 0.35 if i else 0.6
+    axes[2, 0].plot(ap_times, fitted, c='#d62728', alpha=alpha,
             label='__nolegend__' if i else 'Prediction')
 axes[2, 0].legend(loc=1)
 axes[2, 0].set_ylim([-0.5, 8.5])
 axes[2, 0].set_ylabel('Current\n(normalised)', fontsize=13)
 axes[2, 0].set_xlabel('Time (ms)', fontsize=16)
-axes[2, 0].text(.025, .85, 'Validation', ha='left', fontsize=14, color='C3',
+axes[2, 0].text(.025, .85, 'Validation', ha='left', fontsize=14,
+        color='#d62728', transform=axes[2, 0].transAxes)
+
+axes[1, 0].arrow(1.025, 0.5, 0.14, 0, clip_on=False, width=0.02,
+        length_includes_head=True, head_width=0.06, head_length=0.04,
+        transform=axes[1, 0].transAxes)
+axes[2, 0].arrow(1.025 + 0.14, 0.5, -0.14, 0, clip_on=False, width=0.02,
+        length_includes_head=True, head_width=0.06, head_length=0.04,
         transform=axes[2, 0].transAxes)
 
-axes[1, 0].arrow(1.035, 0.5, 0.175, 0, clip_on=False, width=0.02,
-        length_includes_head=True, head_width=0.075, head_length=0.05,
-        transform=axes[1, 0].transAxes)
-axes[2, 1].arrow(-0.19, 0.5, -0.175, 0, clip_on=False, width=0.02,
-        length_includes_head=True, head_width=0.075, head_length=0.05,
-        transform=axes[2, 1].transAxes)
-
 axes[0, 1].plot(stair_times, stair_herg.v_func(stair_times), c='#7f7f7f')
-axes[0, 1].set_ylabel('Voltage (mV)', fontsize=14)
+axes[0, 1].set_ylabel('Voltage (mV)', fontsize=12)
 axes[0, 1].set_xticks([])
-axes[1, 1].plot(stair_times, stair_data, alpha=0.5, c='#1f77b4', label='Data')
+axes[1, 1].plot(stair_times, stair_data, alpha=0.8, c='#7f7f7f', label='Data')
 for i, p in enumerate(ap_p_best):
     predict = stair_herg.simulate(p, stair_times)
-    axes[1, 1].plot(stair_times, predict, c='#ff7f0e',
+    alpha = 0.35 if i else 0.6
+    axes[1, 1].plot(stair_times, predict, c='#d62728', alpha=alpha,
             label='__nolegend__' if i else 'Prediction')
 axes[1, 1].legend(loc=2)
 axes[1, 1].set_ylim([-1.5, 9.5])
 axes[1, 1].set_ylabel('Current\n(normalised)', fontsize=13)
 axes[1, 1].set_xticks([])
-axes[1, 1].text(.975, .85, 'Validation', ha='right', fontsize=14, color='C3',
-        transform=axes[1, 1].transAxes)
-axes[2, 1].plot(stair_times, stair_data, alpha=0.5, c='#1f77b4', label='Data')
+axes[1, 1].text(.975, .85, 'Validation', ha='right', fontsize=14,
+        color='#d62728', transform=axes[1, 1].transAxes)
+axes[2, 1].plot(stair_times, stair_data, alpha=0.8, c='#7f7f7f', label='Data')
 for i, p in enumerate(stair_p_best):
     predict = stair_herg.simulate(p, stair_times)
-    axes[2, 1].plot(stair_times, predict, c='#ff7f0e',
+    alpha = 0.35 if i else 0.6
+    axes[2, 1].plot(stair_times, predict, c='#2ca02c', alpha=alpha,
             label='__nolegend__' if i else 'Fitted')
 axes[2, 1].legend(loc=2)
 axes[2, 1].set_ylim([-1.5, 9.5])
 axes[2, 1].set_ylabel('Current\n(normalised)', fontsize=13)
 axes[2, 1].set_xlabel('Time (ms)', fontsize=16)
-axes[2, 1].text(.975, .85, 'Training', ha='right', fontsize=14, color='C2',
-        transform=axes[2, 1].transAxes)
+axes[2, 1].text(.975, .85, 'Training', ha='right', fontsize=14,
+        color='#2ca02c', transform=axes[2, 1].transAxes)
 
-plt.subplots_adjust(hspace=0.05, wspace=0.4)
+plt.subplots_adjust(hspace=0.075, wspace=0.3)
 plt.savefig('%s/herg-fits-and-predictions.png' % (savedir), dpi=200,
         bbox_inches='tight')
 plt.savefig('%s/herg-fits-and-predictions.pdf' % (savedir), format='pdf',
