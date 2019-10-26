@@ -56,15 +56,19 @@ p0 = [1., 0.3]
 popt, pcov = curve_fit(hill, xdata, ydata, p0=p0,
         bounds=([ic50l, nl], [ic50u, nu]))
 p0_all.append(p0)
+popt_all.append(popt)
 p0 = [100., 1.]
 popt, pcov = curve_fit(hill, xdata, ydata, p0=p0,
         bounds=([ic50l, nl], [ic50u, nu]))
 p0_all.append(p0)
 popt_all.append(popt)
 plt.plot(xdata, ydata, 'x')
-plt.plot(xfunc, hill(xfunc, *popt))
+plt.plot(xfunc, hill(xfunc, *popt), c='#ff7f0e')
+plt.text(0.25, 0.15, 'A', fontsize=14, color='#ff7f0e')
 plt.plot(xfunc, hill(xfunc, *p0_all[-1]), c='#fdbf6f')
+plt.text(7.5e1, 0.15, 'C', fontsize=14, color='#fdbf6f')
 plt.plot(xfunc, hill(xfunc, *p0_all[-2]), c='#e41a1c')
+plt.text(5e-4, 0.15, 'B', fontsize=14, color='#e41a1c')
 plt.ylabel('Fraction block', fontsize=17)
 plt.xlabel('Dose concentration', fontsize=17)
 plt.xscale('log')
@@ -104,7 +108,10 @@ for i, (p0, popt) in enumerate(zip(p0_all, popt_all)):
         colour = '#cccccc'
     ax.plot([p0[0], popt[0]], [p0[1], popt[1]], marker='x', c=colour, ls='--',
             alpha=1)
-    ax.plot(popt[0], popt[1], marker='x', c='C1', ls='')
+    ax.plot(popt[0], popt[1], marker='x', c='#ff7f0e', ls='')
+ax.text(20., 0.8, 'A', fontsize=14, color='#ff7f0e', ha='left', va='top')
+ax.text(20., 0.4, 'B', fontsize=14, color='#e41a1c', ha='left', va='top')
+ax.text(115., 0.8, 'C', fontsize=14, color='#fdbf6f', ha='left', va='top')
 ax.axis([x_min, x_max, y_min, y_max])
 ax.set_xlabel(r'IC$_{50}$', fontsize=17)
 ax.set_ylabel('Hill coefficient', fontsize=17)
@@ -145,7 +152,7 @@ c = ax.pcolormesh(TIC50, TN, TE, cmap='viridis_r', vmin=z_min, vmax=z_max)
 for p0, tpopt in zip(p0_all, tpopt_all):
     ax.plot([np.log(p0[0]), tpopt[0]], [p0[1], tpopt[1]], marker='x',
             c='#cccccc', ls='--', alpha=1)
-    ax.plot(tpopt[0], tpopt[1], marker='x', c='C1', ls='')
+    ax.plot(tpopt[0], tpopt[1], marker='x', c='#ff7f0e', ls='')
 ax.axis([x_min, x_max, y_min, y_max])
 ax.set_xlabel(r'$\ln$(IC$_{50})$')
 ax.set_ylabel('Hill coefficient')
@@ -207,7 +214,10 @@ for i, (tp0, tpopt) in enumerate(zip(t2p0_all, t2popt_all)):
         colour = '#cccccc'
     ax.plot([tp0[0], tpopt[0]], [tp0[1], tpopt[1]], marker='x', c=colour,
             ls='--', alpha=1)
-    ax.plot(tpopt[0], tpopt[1], marker='x', c='C1', ls='')
+    ax.plot(tpopt[0], tpopt[1], marker='x', c='#ff7f0e', ls='')
+ax.text(-.45, 0.55, 'A', fontsize=14, color='#ff7f0e', ha='right', va='center')
+ax.text(.25, 0.3, 'B', fontsize=14, color='#e41a1c', ha='left', va='center')
+ax.text(4.95, 1., 'C', fontsize=14, color='#fdbf6f', ha='left', va='center')
 ax.axis([x_min, x_max, y_min, y_max])
 ax.set_xlabel(r'$\ln$(IC$_{50})$', fontsize=17)
 ax.set_ylabel('Hill coefficient', fontsize=17)
