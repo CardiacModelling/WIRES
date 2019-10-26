@@ -45,23 +45,28 @@ nl = 0.0
 # Simple fit
 p0_all = []
 popt_all = []
-for _ in range(20):
+for _ in range(18):
     p0 = np.random.uniform([ic50l, nl], [ic50u, nu])
     popt, pcov = curve_fit(hill, xdata, ydata, p0=p0,
             bounds=([ic50l, nl], [ic50u, nu]))
     p0_all.append(p0)
     popt_all.append(popt)
+# Manual init
 p0 = [1., 0.3]
+popt, pcov = curve_fit(hill, xdata, ydata, p0=p0,
+        bounds=([ic50l, nl], [ic50u, nu]))
+p0_all.append(p0)
+p0 = [100., 1.]
 popt, pcov = curve_fit(hill, xdata, ydata, p0=p0,
         bounds=([ic50l, nl], [ic50u, nu]))
 p0_all.append(p0)
 popt_all.append(popt)
 plt.plot(xdata, ydata, 'x')
 plt.plot(xfunc, hill(xfunc, *popt))
-plt.plot(xfunc, hill(xfunc, *p0_all[-5]))
-plt.plot(xfunc, hill(xfunc, *p0_all[-1]))
-plt.ylabel('Fraction block', fontsize=16)
-plt.xlabel('Concentration', fontsize=16)
+plt.plot(xfunc, hill(xfunc, *p0_all[-1]), c='#fdbf6f')
+plt.plot(xfunc, hill(xfunc, *p0_all[-2]), c='#e41a1c')
+plt.ylabel('Fraction block', fontsize=17)
+plt.xlabel('Concentration', fontsize=17)
 plt.xscale('log')
 plt.savefig('hill-fig/dose-response-example', bbox_inches='tight')
 plt.savefig('hill-fig/dose-response-example.pdf', format='pdf',
@@ -91,10 +96,10 @@ c = ax.pcolormesh(IC50, N, E, cmap='viridis_r', vmin=z_min, vmax=z_max)
 # cmap: 'RdBu', 'YlGnBu'
 #ax.plot(ic50_true, n_true, marker='x', c='w', ls='')
 for i, (p0, popt) in enumerate(zip(p0_all, popt_all)):
-    if i == len(p0_all) - 5:
-        colour = 'C2'
-    elif i == len(p0_all) - 1:
-        colour = 'C3'
+    if i == len(p0_all) - 1:
+        colour = '#fdbf6f'
+    elif i == len(p0_all) - 2:
+        colour = '#e41a1c'
     else:
         colour = '#cccccc'
     ax.plot([p0[0], popt[0]], [p0[1], popt[1]], marker='x', c=colour, ls='--',
@@ -158,12 +163,23 @@ plt.close()
 #    return hill(x, ut1, ut2)
 t2p0_all = []
 t2popt_all = []
-for _ in range(20):
+for _ in range(18):
     t2p0 = np.random.uniform([np.log(ic50l), nl], [np.log(ic50u), nu])
     t2popt, pcov = curve_fit(transformed_func, xdata, ydata, p0=t2p0,
             bounds=([np.log(ic50l), nl], [np.log(ic50u), nu]))
     t2p0_all.append(t2p0)
     t2popt_all.append(t2popt)
+# Manual init
+t2p0 = [np.log(1.), 0.3]
+t2popt, pcov = curve_fit(transformed_func, xdata, ydata, p0=t2p0,
+        bounds=([np.log(ic50l), nl], [np.log(ic50u), nu]))
+t2p0_all.append(t2p0)
+t2popt_all.append(t2popt)
+t2p0 = [np.log(100.), 1.]
+t2popt, pcov = curve_fit(transformed_func, xdata, ydata, p0=t2p0,
+        bounds=([np.log(ic50l), nl], [np.log(ic50u), nu]))
+t2p0_all.append(t2p0)
+t2popt_all.append(t2popt)
 
 # Inspect transformed contour (resampled p0)
 t2ic50_sweep = np.log(np.logspace(np.log10(ic50l), np.log10(ic50u), 250))
@@ -182,8 +198,14 @@ fig, ax = plt.subplots()
 c = ax.pcolormesh(T2IC50, T2N, T2E, cmap='viridis_r', vmin=z_min, vmax=z_max)
 # cmap: 'RdBu', 'YlGnBu'
 #ax.plot(np.log(ic50_true), n_true, marker='x', c='w', ls='')
-for tp0, tpopt in zip(t2p0_all, t2popt_all):
-    ax.plot([tp0[0], tpopt[0]], [tp0[1], tpopt[1]], marker='x', c='#cccccc',
+for i, (tp0, tpopt) in enumerate(zip(t2p0_all, t2popt_all)):
+    if i == len(t2p0_all) - 1:
+        colour = '#fdbf6f'
+    elif i == len(t2p0_all) - 2:
+        colour = '#e41a1c'
+    else:
+        colour = '#cccccc'
+    ax.plot([tp0[0], tpopt[0]], [tp0[1], tpopt[1]], marker='x', c=colour,
             ls='--', alpha=1)
     ax.plot(tpopt[0], tpopt[1], marker='x', c='C1', ls='')
 ax.axis([x_min, x_max, y_min, y_max])
