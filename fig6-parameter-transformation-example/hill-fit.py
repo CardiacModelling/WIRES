@@ -91,7 +91,7 @@ for i in range(IC50.shape[0]):
 x_min, x_max = np.min(ic50_sweep), np.max(ic50_sweep)
 y_min, y_max = np.min(n_sweep), np.max(n_sweep)
 z_min, z_max = 0.05, 0.6
-fig, ax = plt.subplots(figsize=(6.5, 6))
+fig, ax = plt.subplots(figsize=(5.5, 5))
 c = ax.pcolormesh(IC50, N, E, cmap='viridis_r', vmin=z_min, vmax=z_max)
 # cmap: 'RdBu', 'YlGnBu'
 #ax.plot(ic50_true, n_true, marker='x', c='w', ls='')
@@ -106,10 +106,10 @@ for i, (p0, popt) in enumerate(zip(p0_all, popt_all)):
             alpha=1)
     ax.plot(popt[0], popt[1], marker='x', c='C1', ls='')
 ax.axis([x_min, x_max, y_min, y_max])
-ax.set_xlabel(r'IC$_{50}$', fontsize=18)
-ax.set_ylabel('Hill coefficient', fontsize=18)
+ax.set_xlabel(r'IC$_{50}$', fontsize=17)
+ax.set_ylabel('Hill coefficient', fontsize=17)
 #cbar = fig.colorbar(c, ax=ax)
-#cbar.ax.set_ylabel('RMSE', fontsize=18)
+#cbar.ax.set_ylabel('RMSE', fontsize=17)
 plt.subplots_adjust(wspace=0, hspace=0)
 plt.tight_layout()
 plt.savefig('hill-fig/dose-response-simple-fit', dpi=200, bbox_inches='tight')
@@ -194,7 +194,7 @@ for i in range(T2IC50.shape[0]):
 x_min, x_max = np.min(t2ic50_sweep), np.max(t2ic50_sweep)
 y_min, y_max = np.min(t2n_sweep), np.max(t2n_sweep)
 z_min, z_max = 0.05, 0.6
-fig, ax = plt.subplots(figsize=(8, 6))
+fig, ax = plt.subplots(figsize=(6, 5))
 c = ax.pcolormesh(T2IC50, T2N, T2E, cmap='viridis_r', vmin=z_min, vmax=z_max)
 # cmap: 'RdBu', 'YlGnBu'
 #ax.plot(np.log(ic50_true), n_true, marker='x', c='w', ls='')
@@ -209,10 +209,10 @@ for i, (tp0, tpopt) in enumerate(zip(t2p0_all, t2popt_all)):
             ls='--', alpha=1)
     ax.plot(tpopt[0], tpopt[1], marker='x', c='C1', ls='')
 ax.axis([x_min, x_max, y_min, y_max])
-ax.set_xlabel(r'$\ln$(IC$_{50})$', fontsize=18)
-ax.set_ylabel('Hill coefficient', fontsize=18)
+ax.set_xlabel(r'$\ln$(IC$_{50})$', fontsize=17)
+ax.set_ylabel('Hill coefficient', fontsize=17)
 cbar = fig.colorbar(c, ax=ax)
-cbar.ax.set_ylabel('RMSE', fontsize=18)
+cbar.ax.set_ylabel('RMSE', fontsize=17)
 plt.subplots_adjust(wspace=0, hspace=0)
 plt.tight_layout()
 plt.savefig('hill-fig/dose-response-simple-transformed-fit', dpi=200,
