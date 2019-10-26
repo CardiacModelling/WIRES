@@ -4,15 +4,15 @@ This repository contains codes and source files necessary to reproduce examples 
 
 ## Overfitting example
 
-See [fig1-overfitting-example](https://github.com/CardiacModelling/WIRES/tree/master/fig1-overfitting-example)
+See [fig1-overfitting-example](./fig1-overfitting-example)
 
 ## Parameter identifiability example
 
-See [fig2-parameter-identifiability-example](https://github.com/CardiacModelling/WIRES/tree/master/fig2-parameter-identifiability-example)
+See [fig2-parameter-identifiability-example](./fig2-parameter-identifiability-example)
 
-## Dose-response example
+## Parameter transformation example
 
-See [fig6-dose-response-example](https://github.com/CardiacModelling/WIRES/tree/master/fig6-dose-response-example)
+See [fig6-parameter-transformation-example](./fig6-parameter-transformation-example)
 
 # Acknowledging this work
 
