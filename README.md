@@ -2,15 +2,15 @@
 
 This repository contains codes and source files necessary to reproduce examples and figures found in the paper.
 
-## Overfitting example
+### Overfitting example
 
 See [fig1-overfitting-example](./fig1-overfitting-example)
 
-## Parameter identifiability example
+### Parameter identifiability example
 
 See [fig2-parameter-identifiability-example](./fig2-parameter-identifiability-example)
 
-## Parameter transformation example
+### Parameter transformation example
 
 See [fig6-parameter-transformation-example](./fig6-parameter-transformation-example)
 
