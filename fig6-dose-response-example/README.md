@@ -1,9 +1,9 @@
 # Parameter transformation example
 
 This example demonstrates the improvements in optimisation with parameter transforms.
-![Figure 6 (Left)](hill-fig/dose-response-example.png)
-![Figure 6 (Middle)](hill-fig/dose-response-simple-fit.png)
-![Figure 6 (Right)](hill-fig/dose-response-simple-transformed-fit.png)
+<img src="hill-fig/dose-response-example.png" width="250" height="200">
+<img src="hill-fig/dose-response-simple-fit.png" width="250" height="200">
+<img src="hill-fig/dose-response-simple-transformed-fit.png" width="250" height="200">
 
 ### Requirements
 The code requires Python 2.7+ or 3.5+.
