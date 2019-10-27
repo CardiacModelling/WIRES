@@ -56,7 +56,7 @@ popt, pcov = curve_fit(hill, xdata, ydata, p0=p0,
         bounds=([ic50l, nl], [ic50u, nu]))
 p0_all.append(p0)
 popt_all.append(popt)
-p0 = [100., 1.]
+p0 = [150., 8.]
 popt, pcov = curve_fit(hill, xdata, ydata, p0=p0,
         bounds=([ic50l, nl], [ic50u, nu]))
 p0_all.append(p0)
@@ -65,10 +65,10 @@ popt_all.append(popt)
 # Plot illustration
 plt.figure(figsize=(6, 5))
 plt.plot(xdata, ydata, 'x')
-plt.plot(xfunc, hill(xfunc, *popt), c='#ff7f0e')
+plt.plot(xfunc, hill(xfunc, *popt_all[0]), c='#ff7f0e')
 plt.text(0.25, 0.15, 'A', fontsize=14, color='#ff7f0e')
 plt.plot(xfunc, hill(xfunc, *p0_all[-1]), c='#fdbf6f')
-plt.text(7.5e1, 0.15, 'C', fontsize=14, color='#fdbf6f')
+plt.text(2.5e2, 0.15, 'C', fontsize=14, color='#fdbf6f')
 plt.plot(xfunc, hill(xfunc, *p0_all[-2]), c='#e41a1c')
 plt.text(5e-4, 0.15, 'B', fontsize=14, color='#e41a1c')
 plt.ylabel('Fraction block', fontsize=17)
@@ -109,9 +109,11 @@ for i, (p0, popt) in enumerate(zip(p0_all, popt_all)):
     ax.plot([p0[0], popt[0]], [p0[1], popt[1]], marker='x', c=colour, ls='--',
             alpha=1)
     ax.plot(popt[0], popt[1], marker='x', c='#ff7f0e', ls='')
+    if i == len(p0_all) - 1:
+        ax.plot(popt[0], popt[1], marker='x', c='#fdbf6f', ls='')
 ax.text(20., 0.8, 'A', fontsize=14, color='#ff7f0e', ha='left', va='top')
 ax.text(20., 0.4, 'B', fontsize=14, color='#e41a1c', ha='left', va='top')
-ax.text(115., 0.8, 'C', fontsize=14, color='#fdbf6f', ha='left', va='top')
+ax.text(130., 8., 'C', fontsize=14, color='#fdbf6f', ha='right', va='center')
 ax.axis([x_min, x_max, y_min, y_max])
 ax.set_xlabel(r'IC$_{50}$', fontsize=17)
 ax.set_ylabel('Hill coefficient', fontsize=17)
@@ -139,7 +141,7 @@ tpopt, pcov = curve_fit(transformed_func, xdata, ydata, p0=tp0,
         bounds=([np.log(ic50l), nl], [np.log(ic50u), nu]))
 tp0_all.append(tp0)
 tpopt_all.append(tpopt)
-tp0 = [np.log(100.), 1.]
+tp0 = [np.log(150.), 8.]
 tpopt, pcov = curve_fit(transformed_func, xdata, ydata, p0=tp0,
         bounds=([np.log(ic50l), nl], [np.log(ic50u), nu]))
 tp0_all.append(tp0)
@@ -171,7 +173,7 @@ for i, (tp0, tpopt) in enumerate(zip(tp0_all, tpopt_all)):
     ax.plot(tpopt[0], tpopt[1], marker='x', c='#ff7f0e', ls='')
 ax.text(-.45, 0.55, 'A', fontsize=14, color='#ff7f0e', ha='right', va='center')
 ax.text(.25, 0.3, 'B', fontsize=14, color='#e41a1c', ha='left', va='center')
-ax.text(4.95, 1., 'C', fontsize=14, color='#fdbf6f', ha='left', va='center')
+ax.text(5.25, 8., 'C', fontsize=14, color='#fdbf6f', ha='left', va='center')
 ax.axis([x_min, x_max, y_min, y_max])
 ax.set_xlabel(r'$\ln$(IC$_{50})$', fontsize=17)
 ax.set_ylabel('Hill coefficient', fontsize=17)
