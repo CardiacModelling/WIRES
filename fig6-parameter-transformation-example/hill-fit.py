@@ -32,11 +32,6 @@ ic50_true = 1.2
 n_true = 0.85
 ydata = hill(xdata, ic50_true, n_true)
 ydata += np.random.normal(0, 0.05, size=xdata.shape)
-plt.plot(xdata, ydata, 'x')
-plt.ylabel('Fraction block')
-plt.xlabel('Concentration')
-plt.xscale('log')
-plt.close()
 
 # Bounds
 ic50u = 1000.
@@ -68,6 +63,7 @@ p0_all.append(p0)
 popt_all.append(popt)
 
 # Plot illustration
+plt.figure(figsize=(6, 5))
 plt.plot(xdata, ydata, 'x')
 plt.plot(xfunc, hill(xfunc, *popt), c='#ff7f0e')
 plt.text(0.25, 0.15, 'A', fontsize=14, color='#ff7f0e')
