@@ -106,12 +106,15 @@ for i, (p0, popt) in enumerate(zip(p0_all, popt_all)):
         colour = '#e41a1c'
     else:
         colour = '#cccccc'
-    ax.plot([p0[0], popt[0]], [p0[1], popt[1]], marker='x', c=colour, ls='--',
+    ax.plot(p0[0], p0[1], c=colour, marker='x', ls='', alpha=1)
+    ax.plot([p0[0], popt[0]], [p0[1], popt[1]], c=colour, marker='', ls='--',
             alpha=1)
     if popt[1] < 1.5:
-        ax.plot(popt[0], popt[1], marker='x', c='#ff7f0e', ls='')
-    if i == len(p0_all) - 1:
-        ax.plot(popt[0], popt[1], marker='x', c='#fdbf6f', ls='')
+        ax.plot(popt[0], popt[1], marker='o', fillstyle='none', c='#ff7f0e',
+                ls='')
+    else:
+        ax.plot(popt[0], popt[1], marker='o', fillstyle='none', c='#c994c7',
+                ls='')
 ax.text(20., 0.6, 'A', fontsize=14, color='#ff7f0e', ha='left', va='bottom')
 ax.text(20., 0.05, 'B', fontsize=14, color='#e41a1c', ha='left', va='bottom')
 ax.text(130., 8., 'C', fontsize=14, color='#fdbf6f', ha='right', va='center')
@@ -169,10 +172,15 @@ for i, (tp0, tpopt) in enumerate(zip(tp0_all, tpopt_all)):
         colour = '#e41a1c'
     else:
         colour = '#cccccc'
-    ax.plot([tp0[0], tpopt[0]], [tp0[1], tpopt[1]], marker='x', c=colour,
+    ax.plot(tp0[0], tp0[1], c=colour, marker='x', ls='', alpha=1)
+    ax.plot([tp0[0], tpopt[0]], [tp0[1], tpopt[1]], c=colour, marker='',
             ls='--', alpha=1)
     if tpopt[1] < 1.5:
-        ax.plot(tpopt[0], tpopt[1], marker='x', c='#ff7f0e', ls='')
+        ax.plot(tpopt[0], tpopt[1], marker='o', fillstyle='none', c='#ff7f0e',
+                ls='')
+    else:
+        ax.plot(tpopt[0], tpopt[1], marker='o', fillstyle='none', c='#c994c7',
+                ls='')
 ax.text(-.45, 0.55, 'A', fontsize=14, color='#ff7f0e', ha='right', va='center')
 ax.text(.25, 0.3, 'B', fontsize=14, color='#e41a1c', ha='left', va='center')
 ax.text(5.25, 8., 'C', fontsize=14, color='#fdbf6f', ha='left', va='center')
