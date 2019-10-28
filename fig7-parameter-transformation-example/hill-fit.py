@@ -63,7 +63,7 @@ p0_all.append(p0)
 popt_all.append(popt)
 
 # Plot illustration
-plt.figure(figsize=(6, 5))
+plt.figure(figsize=(5, 4))
 plt.plot(xdata, ydata, 'x')
 plt.plot(xfunc, hill(xfunc, *popt_all[0]), c='#ff7f0e')
 plt.text(0.25, 0.15, 'A', fontsize=14, color='#ff7f0e')
@@ -74,7 +74,7 @@ plt.text(5e-4, 0.15, 'B', fontsize=14, color='#e41a1c')
 plt.ylabel('Fraction block', fontsize=17)
 plt.xlabel('Dose concentration', fontsize=17)
 plt.xscale('log')
-plt.savefig('hill-fig/dose-response-example', dpi=200, bbox_inches='tight')
+plt.savefig('hill-fig/dose-response-example', dpi=300, bbox_inches='tight')
 plt.savefig('hill-fig/dose-response-example.pdf', format='pdf',
         bbox_inches='tight')
 plt.close()
@@ -97,7 +97,7 @@ for i in range(IC50.shape[0]):
 x_min, x_max = np.min(ic50_sweep), np.max(ic50_sweep)
 y_min, y_max = np.min(n_sweep), np.max(n_sweep)
 z_min, z_max = 0.05, 0.6
-fig, ax = plt.subplots(figsize=(5.5, 5))
+fig, ax = plt.subplots(figsize=(4.5, 4))
 c = ax.pcolormesh(IC50, N, E, cmap='viridis_r', vmin=z_min, vmax=z_max)
 for i, (p0, popt) in enumerate(zip(p0_all, popt_all)):
     if i == len(p0_all) - 1:
@@ -108,18 +108,19 @@ for i, (p0, popt) in enumerate(zip(p0_all, popt_all)):
         colour = '#cccccc'
     ax.plot([p0[0], popt[0]], [p0[1], popt[1]], marker='x', c=colour, ls='--',
             alpha=1)
-    ax.plot(popt[0], popt[1], marker='x', c='#ff7f0e', ls='')
+    if popt[1] < 1.5:
+        ax.plot(popt[0], popt[1], marker='x', c='#ff7f0e', ls='')
     if i == len(p0_all) - 1:
         ax.plot(popt[0], popt[1], marker='x', c='#fdbf6f', ls='')
-ax.text(20., 0.8, 'A', fontsize=14, color='#ff7f0e', ha='left', va='top')
-ax.text(20., 0.4, 'B', fontsize=14, color='#e41a1c', ha='left', va='top')
+ax.text(20., 0.6, 'A', fontsize=14, color='#ff7f0e', ha='left', va='bottom')
+ax.text(20., 0.05, 'B', fontsize=14, color='#e41a1c', ha='left', va='bottom')
 ax.text(130., 8., 'C', fontsize=14, color='#fdbf6f', ha='right', va='center')
 ax.axis([x_min, x_max, y_min, y_max])
 ax.set_xlabel(r'IC$_{50}$', fontsize=17)
 ax.set_ylabel('Hill coefficient', fontsize=17)
 plt.subplots_adjust(wspace=0, hspace=0)
 plt.tight_layout()
-plt.savefig('hill-fig/dose-response-simple-fit', dpi=200, bbox_inches='tight')
+plt.savefig('hill-fig/dose-response-simple-fit', dpi=300, bbox_inches='tight')
 plt.savefig('hill-fig/dose-response-simple-fit.pdf', format='pdf',
         bbox_inches='tight')
 plt.close()
@@ -159,7 +160,7 @@ for i in range(TIC50.shape[0]):
 x_min, x_max = np.min(tic50_sweep), np.max(tic50_sweep)
 y_min, y_max = np.min(tn_sweep), np.max(tn_sweep)
 z_min, z_max = 0.05, 0.6
-fig, ax = plt.subplots(figsize=(6, 5))
+fig, ax = plt.subplots(figsize=(5, 4))
 c = ax.pcolormesh(TIC50, TN, TE, cmap='viridis_r', vmin=z_min, vmax=z_max)
 for i, (tp0, tpopt) in enumerate(zip(tp0_all, tpopt_all)):
     if i == len(tp0_all) - 1:
@@ -170,7 +171,8 @@ for i, (tp0, tpopt) in enumerate(zip(tp0_all, tpopt_all)):
         colour = '#cccccc'
     ax.plot([tp0[0], tpopt[0]], [tp0[1], tpopt[1]], marker='x', c=colour,
             ls='--', alpha=1)
-    ax.plot(tpopt[0], tpopt[1], marker='x', c='#ff7f0e', ls='')
+    if tpopt[1] < 1.5:
+        ax.plot(tpopt[0], tpopt[1], marker='x', c='#ff7f0e', ls='')
 ax.text(-.45, 0.55, 'A', fontsize=14, color='#ff7f0e', ha='right', va='center')
 ax.text(.25, 0.3, 'B', fontsize=14, color='#e41a1c', ha='left', va='center')
 ax.text(5.25, 8., 'C', fontsize=14, color='#fdbf6f', ha='left', va='center')
@@ -181,7 +183,7 @@ cbar = fig.colorbar(c, ax=ax)
 cbar.ax.set_ylabel('RMSE', fontsize=17)
 plt.subplots_adjust(wspace=0, hspace=0)
 plt.tight_layout()
-plt.savefig('hill-fig/dose-response-simple-transformed-fit', dpi=200,
+plt.savefig('hill-fig/dose-response-simple-transformed-fit', dpi=300,
         bbox_inches='tight')
 plt.savefig('hill-fig/dose-response-simple-transformed-fit.pdf', format='pdf',
         bbox_inches='tight')
