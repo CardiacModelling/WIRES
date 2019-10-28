@@ -1,7 +1,7 @@
 # Parameter identifiability example
 
 This example demonstrates the consequences of unidentifiable parameters.
-![Figure 2](herg-fig/herg-fits-and-predictions.png)
+![Figure 3](herg-fig/herg-fits-and-predictions.png)
 
 ### Requirements
 The code requires Python 2.7+ or 3.5+ and one dependency: [PINTS](https://github.com/pints-team/pints).

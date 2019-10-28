@@ -4,15 +4,15 @@ This repository contains codes and source files necessary to reproduce examples 
 
 ### Overfitting example
 
-See [fig1-overfitting-example](./fig1-overfitting-example)
+See [fig2-overfitting-example](./fig2-overfitting-example)
 
 ### Parameter identifiability example
 
-See [fig2-parameter-identifiability-example](./fig2-parameter-identifiability-example)
+See [fig3-parameter-identifiability-example](./fig3-parameter-identifiability-example)
 
 ### Parameter transformation example
 
-See [fig6-parameter-transformation-example](./fig6-parameter-transformation-example)
+See [fig7-parameter-transformation-example](./fig7-parameter-transformation-example)
 
 # Acknowledging this work
 
