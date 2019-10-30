@@ -9,6 +9,7 @@ This repository contains codes and source files necessary to reproduce examples 
 - [Parameter identifiability](./fig3-parameter-identifiability-example)
 - [Ion channel models](./fig4-ion-channel-models)
 - [Four ways of fitting an ion channel model](./fig5-4-ways-of-fitting)
+- [Evolution of model complexity](./fig6-evolution-model-complexity)
 - [AP model calibration summary](./fig7-AP-model-calibration-summary)
 - [Parameter transformation](./fig8-parameter-transformation-example)
 
