@@ -2,7 +2,11 @@
 
 Dominic G. Whittaker*, Michael Clerx*, Chon Lok Lei, David J. Christini, Gary R. Mirams
 
-![Graphical abstract](./fig0-abstract/abstract.png)
+<!-- ![Graphical abstract](./fig0-abstract/abstract.png) -->
+
+<p align="center">
+  <img src="https://github.com/CardiacModelling/WIRES/blob/master/fig0-abstract/abstract.png">
+</p>
 
 Models of the cardiac action potential (center) are composed of several ion current submodels (top).
 Both the submodels and the combined model require calibration to experimental data.
