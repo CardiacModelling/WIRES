@@ -12,7 +12,7 @@ See [fig3-parameter-identifiability-example](./fig3-parameter-identifiability-ex
 
 ### Parameter transformation example
 
-See [fig7-parameter-transformation-example](./fig7-parameter-transformation-example)
+See [fig8-parameter-transformation-example](./fig8-parameter-transformation-example)
 
 # Acknowledging this work
 
