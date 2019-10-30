@@ -1,4 +1,4 @@
-# Calibration o fIonic and Cellular Cardiac Electrophysiology Models
+# Calibration of Ionic and Cellular Cardiac Electrophysiology Models
 
 Dominic G. Whittaker, Michael Clerx, Chon Lok Lei, David J. Christini, Gary R. Mirams
 
