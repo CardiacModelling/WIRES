@@ -2,19 +2,17 @@
 
 This repository contains codes and source files necessary to reproduce examples and figures found in the paper.
 
-### Overfitting example
+## Figures
 
-See [fig2-overfitting-example](./fig2-overfitting-example)
+- [Overview figure](./fig1-overview)
+- [Interpolation, Extrapolation & Overfitting](./fig2-overfitting-example)
+- [Parameter identifiability](./fig3-parameter-identifiability-example)
+- [Ion channel models](./fig4-ion-channel-models)
+- [Four ways of fitting an ion channel model](./fig5-4-ways-of-fitting)
+- [AP model calibration summary](./fig7-AP-model-calibration-summary)
+- [Parameter transformation](./fig8-parameter-transformation-example)
 
-### Parameter identifiability example
-
-See [fig3-parameter-identifiability-example](./fig3-parameter-identifiability-example)
-
-### Parameter transformation example
-
-See [fig8-parameter-transformation-example](./fig8-parameter-transformation-example)
-
-# Acknowledging this work
+## Acknowledging this work
 
 If you publish any work based on the contents of this repository please cite:
 
