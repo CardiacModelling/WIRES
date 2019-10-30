@@ -1,9 +1,17 @@
-# WIREs review
+# Calibration o fIonic and Cellular Cardiac Electrophysiology Models
+
+Dominic G. Whittaker, Michael Clerx, Chon Lok Lei, David J. Christini, Gary R. Mirams
+
+![Graphical abstract](./fig0-abstract/abstract.png "Logo Title Text 1")
+Models of the cardiac action potential (center) are composed of several ion current submodels (top).
+Both the submodels and the combined model require calibration to experimental data.
+We discuss the classic and latest approaches to calibration in electrophysiology field, highlighting important concepts, common pitfalls, and open challenges.
 
 This repository contains codes and source files necessary to reproduce examples and figures found in the paper.
 
 ## Figures
 
+- [Graphical abstract](./fig0-abstract)
 - [Overview figure](./fig1-overview)
 - [Interpolation, Extrapolation & Overfitting](./fig2-overfitting-example)
 - [Parameter identifiability](./fig3-parameter-identifiability-example)
