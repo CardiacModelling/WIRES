@@ -1155,15 +1155,15 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="4.7932867"
-     inkscape:cx="166.99206"
-     inkscape:cy="47.857244"
+     inkscape:zoom="7.18993"
+     inkscape:cx="105.57877"
+     inkscape:cy="55.711273"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="true"
      inkscape:snap-text-baseline="false"
-     inkscape:window-width="1600"
-     inkscape:window-height="836"
+     inkscape:window-width="1920"
+     inkscape:window-height="1136"
      inkscape:window-x="0"
      inkscape:window-y="27"
      inkscape:window-maximized="1"
@@ -1308,24 +1308,24 @@
        xml:space="preserve"
        style="font-size:3.52777767px;line-height:125%;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="53.503227"
-       y="271.5"
+       y="271.13196"
        id="text1246-2-6"><tspan
          sodipodi:role="line"
          id="tspan1244-4-84"
          x="53.503227"
-         y="271.5"
+         y="271.13196"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Latin Modern Math';-inkscape-font-specification:'Latin Modern Math';text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px">m</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:3.52777767px;line-height:125%;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="40"
-       y="271.5"
+       x="39.68108"
+       y="271.13196"
        id="text1246-9-7-6"><tspan
          sodipodi:role="line"
          id="tspan1244-2-7-6"
-         x="40"
-         y="271.5"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Latin Modern Math';-inkscape-font-specification:'Latin Modern Math';text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px">1-m</tspan></text>
+         x="39.933758"
+         y="271.13196"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Latin Modern Math';-inkscape-font-specification:'Latin Modern Math';text-align:center;letter-spacing:0.50535417px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px">1-m</tspan></text>
     <path
        style="color:#000000;overflow:visible;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke markers fill"
        d="m 44,270 h 7 l -1,-1"
@@ -1339,124 +1339,69 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.90101647px;line-height:125%;font-family:'DejaVu Serif';-inkscape-font-specification:'DejaVu Serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#2000f3;fill-opacity:1;stroke:none;stroke-width:0.36573035px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="29.983917"
-       y="284.75629"
+       x="29.155643"
+       y="284.87897"
        id="text1246-2-4-13"><tspan
          sodipodi:role="line"
          id="tspan1244-4-8-8"
-         x="29.983917"
-         y="284.75629"
+         x="29.155643"
+         y="284.87897"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.90101647px;font-family:'DejaVu Serif';-inkscape-font-specification:'DejaVu Serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#2000f3;fill-opacity:1;stroke:none;stroke-width:0.36573035px">k</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.90112376px;line-height:125%;font-family:'DejaVu Serif';-inkscape-font-specification:'DejaVu Serif Italic';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#2000f3;fill-opacity:1;stroke:none;stroke-width:0.36573035px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="35.27565"
-       y="284.75629"
+       x="35.177521"
+       y="284.8299"
        id="text1246-2-4-13-9"><tspan
          sodipodi:role="line"
          id="tspan1244-4-8-8-3"
-         x="35.27565"
-         y="284.75629"
+         x="35.177521"
+         y="284.8299"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.90112376px;font-family:'Latin Modern Math';-inkscape-font-specification:'Latin Modern Math';text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.36573035px">exp(</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.90112376px;line-height:125%;font-family:'DejaVu Serif';-inkscape-font-specification:'DejaVu Serif Italic';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#2000f3;fill-opacity:1;stroke:none;stroke-width:0.36573035px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="45.406082"
-       y="284.75629"
+       x="45.185291"
+       y="284.8299"
        id="text1246-2-4-13-9-4"><tspan
          sodipodi:role="line"
          id="tspan1244-4-8-8-3-1"
-         x="45.406082"
-         y="284.75629"
+         x="45.185291"
+         y="284.8299"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.90112376px;font-family:'Latin Modern Math';-inkscape-font-specification:'Latin Modern Math';text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.36573035px">+</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.90101647px;line-height:125%;font-family:'DejaVu Serif';-inkscape-font-specification:'DejaVu Serif, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;shape-padding:0;opacity:1;vector-effect:none;fill:#f33400;fill-opacity:1;stroke:none;stroke-width:0.13822879;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       x="44.023796"
-       y="284.75629"
+       x="43.680344"
+       y="284.9035"
        id="text1246-2-4-13-7"><tspan
          sodipodi:role="line"
          id="tspan1244-4-8-8-0"
-         x="44.023796"
-         y="284.75629"
+         x="43.680344"
+         y="284.9035"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.90101647px;line-height:125%;font-family:'DejaVu Serif';-inkscape-font-specification:'DejaVu Serif, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;shape-padding:0;vector-effect:none;fill:#f33400;fill-opacity:1;stroke:none;stroke-width:0.13822879;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">a</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.90101647px;line-height:125%;font-family:'DejaVu Serif';-inkscape-font-specification:'DejaVu Serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#f33400;fill-opacity:1;stroke:none;stroke-width:0.13822879;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       x="49.671021"
+       x="49.793682"
        y="284.75629"
        id="text1246-2-4-13-7-8"><tspan
          sodipodi:role="line"
          id="tspan1244-4-8-8-0-5"
-         x="49.671021"
+         x="49.793682"
          y="284.75629"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.90101647px;font-family:'DejaVu Serif';-inkscape-font-specification:'DejaVu Serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#f33400;fill-opacity:1;stroke:none;stroke-width:0.13822879;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">b</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.90112376px;line-height:125%;font-family:'DejaVu Serif';-inkscape-font-specification:'DejaVu Serif Italic';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#2000f3;fill-opacity:1;stroke:none;stroke-width:0.36573035px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="51.086037"
+       x="50.619923"
        y="284.75629"
        id="text1246-2-4-13-9-4-2"><tspan
          sodipodi:role="line"
          id="tspan1244-4-8-8-3-1-7"
-         x="51.086037"
+         x="50.619923"
          y="284.75629"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.90112376px;font-family:'Latin Modern Math';-inkscape-font-specification:'Latin Modern Math';text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.36573035px">V</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:3.52777767px;line-height:125%;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="146.82727"
-       y="319.86081"
-       id="text1119-1-8-3-6-9"><tspan
-         sodipodi:role="line"
-         id="tspan1117-0-8-5-2-0"
-         x="146.82727"
-         y="319.86081"
-         style="font-weight:bold;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px">A</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:3.52777767px;line-height:125%;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="151.82727"
-       y="319.86081"
-       id="text1119-1-8-3-6-9-7"><tspan
-         sodipodi:role="line"
-         id="tspan1117-0-8-5-2-0-5"
-         x="151.82727"
-         y="319.86081"
-         style="font-weight:bold;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px">B</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:3.52777767px;line-height:125%;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="156.82727"
-       y="319.86081"
-       id="text1119-1-8-3-6-9-3"><tspan
-         sodipodi:role="line"
-         id="tspan1117-0-8-5-2-0-56"
-         x="156.82727"
-         y="319.86081"
-         style="font-weight:bold;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px">C</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:3.52777767px;line-height:125%;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="161.82727"
-       y="319.86081"
-       id="text1119-1-8-3-6-9-2"><tspan
-         sodipodi:role="line"
-         id="tspan1117-0-8-5-2-0-9"
-         x="161.82727"
-         y="319.86081"
-         style="font-weight:bold;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px">D</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:3.52777767px;line-height:125%;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="166.82727"
-       y="319.86081"
-       id="text1119-1-8-3-6-9-3-1"><tspan
-         sodipodi:role="line"
-         id="tspan1117-0-8-5-2-0-56-2"
-         x="166.82727"
-         y="319.86081"
-         style="font-weight:bold;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px">E</tspan></text>
     <g
        id="g9592"
        transform="translate(71,1)">
@@ -1723,12 +1668,12 @@
     <text
        xml:space="preserve"
        style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.90112376px;line-height:125%;font-family:'DejaVu Serif';-inkscape-font-specification:'DejaVu Serif Italic';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#2000f3;fill-opacity:1;stroke:none;stroke-width:0.36573035px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="31.637527"
+       x="31.146881"
        y="284.8241"
        id="text1246-2-4-13-9-7"><tspan
          sodipodi:role="line"
          id="tspan1244-4-8-8-3-8"
-         x="31.637527"
+         x="31.146881"
          y="284.8241"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.90112376px;font-family:'Latin Modern Math';-inkscape-font-specification:'Latin Modern Math';text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.36573035px">=</tspan></text>
     <text
@@ -1744,7 +1689,7 @@
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.90101647px;font-family:'DejaVu Serif';-inkscape-font-specification:'DejaVu Serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;vector-effect:none;fill:#2000f3;fill-opacity:1;stroke:none;stroke-width:0.36573035px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">k</tspan></text>
     <path
        style="color:#000000;overflow:visible;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#030303;stroke-width:0.34999999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.69999998, 0.69999998;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-end:url(#marker22685);paint-order:markers fill stroke"
-       d="m 13.99939,285.93256 c 2.55198,2.43195 10.02287,2.42629 13.23104,0.0501"
+       d="m 13.925792,286.78536 c 2.55198,2.43195 10.02287,2.42629 13.23104,0.0501"
        id="path5092"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc" />
@@ -1809,248 +1754,260 @@
          id="tspan6608-5"
          x="100.96616"
          y="263.89502"
-         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px">Action potential (AP) model</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.90112376px;line-height:125%;font-family:'DejaVu Serif';-inkscape-font-specification:'DejaVu Serif Italic';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#2000f3;fill-opacity:1;stroke:none;stroke-width:0.36573032px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="143.3558"
-       y="262.82687"
-       id="text1246-2-4-13-9-78"><tspan
-         sodipodi:role="line"
-         id="tspan1244-4-8-8-3-5"
-         x="143.3558"
-         y="262.82687"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.90112376px;font-family:'Latin Modern Math';-inkscape-font-specification:'Latin Modern Math';text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.36573032px">dV</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.90112376px;line-height:125%;font-family:'DejaVu Serif';-inkscape-font-specification:'DejaVu Serif Italic';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#2000f3;fill-opacity:1;stroke:none;stroke-width:0.36573032px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="144.13214"
-       y="266.97375"
-       id="text1246-2-4-13-9-78-9"><tspan
-         sodipodi:role="line"
-         id="tspan1244-4-8-8-3-5-2"
-         x="144.13214"
-         y="266.97375"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.90112376px;font-family:'Latin Modern Math';-inkscape-font-specification:'Latin Modern Math';text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.36573032px">dt</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.90112376px;line-height:125%;font-family:'DejaVu Serif';-inkscape-font-specification:'DejaVu Serif Italic';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#2000f3;fill-opacity:1;stroke:none;stroke-width:0.36573032px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="149.73724"
-       y="264.58423"
-       id="text1246-2-4-13-9-78-7"><tspan
-         sodipodi:role="line"
-         id="tspan1244-4-8-8-3-5-3"
-         x="149.73724"
-         y="264.58423"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.90112376px;font-family:'Latin Modern Math';-inkscape-font-specification:'Latin Modern Math';text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.36573032px">=</tspan></text>
-    <path
-       style="color:#000000;overflow:visible;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#030303;stroke-width:0.20734319;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;paint-order:markers fill stroke"
-       d="m 143.14867,263.63135 h 5.53132"
-       id="path9670"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cc" />
-    <path
-       style="color:#000000;overflow:visible;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#030303;stroke-width:0.20734319;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;paint-order:markers fill stroke"
-       d="m 156.77426,263.63135 h 3.31578"
-       id="path9670-4"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cc" />
-    <path
-       style="color:#000000;overflow:visible;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#030303;stroke-width:0.27645758;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;paint-order:markers fill stroke"
-       d="m 153.97484,263.63135 h 1.79353"
-       id="path9670-7"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cc" />
-    <text
-       xml:space="preserve"
-       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.90112376px;line-height:125%;font-family:'DejaVu Serif';-inkscape-font-specification:'DejaVu Serif Italic';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#2000f3;fill-opacity:1;stroke:none;stroke-width:0.36573032px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="157.33658"
-       y="262.82687"
-       id="text1246-2-4-13-9-78-1"><tspan
-         sodipodi:role="line"
-         id="tspan1244-4-8-8-3-5-6"
-         x="157.33658"
-         y="262.82687"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.90112376px;font-family:'Latin Modern Math';-inkscape-font-specification:'Latin Modern Math';text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.36573032px">1</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.90112376px;line-height:125%;font-family:'DejaVu Serif';-inkscape-font-specification:'DejaVu Serif Italic';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#2000f3;fill-opacity:1;stroke:none;stroke-width:0.36573032px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="156.9211"
-       y="266.97375"
-       id="text1246-2-4-13-9-78-9-3"><tspan
-         sodipodi:role="line"
-         id="tspan1244-4-8-8-3-5-2-0"
-         x="156.9211"
-         y="266.97375"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.90112376px;font-family:'Latin Modern Math';-inkscape-font-specification:'Latin Modern Math';text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.36573032px">C</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.83749628px;line-height:125%;font-family:'DejaVu Serif';-inkscape-font-specification:'DejaVu Serif Italic';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#2000f3;fill-opacity:1;stroke:none;stroke-width:0.54726529px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="161.01172"
-       y="265.60715"
-       id="text1246-2-4-13-9-78-2"><tspan
-         sodipodi:role="line"
-         id="tspan1244-4-8-8-3-5-1"
-         x="161.01172"
-         y="265.60715"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.83749628px;font-family:'Latin Modern Math';-inkscape-font-specification:'Latin Modern Math';text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.54726529px">Σ</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.90112376px;line-height:125%;font-family:'DejaVu Serif';-inkscape-font-specification:'DejaVu Serif Italic';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#2000f3;fill-opacity:1;stroke:none;stroke-width:0.36573032px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="166.33371"
-       y="264.91647"
-       id="text1246-2-4-13-9-78-9-3-5"><tspan
-         sodipodi:role="line"
-         id="tspan1244-4-8-8-3-5-2-0-6"
-         x="166.33371"
-         y="264.91647"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.90112376px;font-family:'Latin Modern Math';-inkscape-font-specification:'Latin Modern Math';text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.36573032px">I</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.90112376px;line-height:125%;font-family:'DejaVu Serif';-inkscape-font-specification:'DejaVu Serif Italic';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#2000f3;fill-opacity:1;stroke:none;stroke-width:0.36573032px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="149.72591"
-       y="272.87161"
-       id="text1246-2-4-13-9-78-7-9"><tspan
-         sodipodi:role="line"
-         id="tspan1244-4-8-8-3-5-3-0"
-         x="149.72591"
-         y="272.87161"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.90112376px;font-family:'Latin Modern Math';-inkscape-font-specification:'Latin Modern Math';text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.36573032px">=</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.90112376px;line-height:125%;font-family:'DejaVu Serif';-inkscape-font-specification:'DejaVu Serif Italic';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       x="153.91203"
-       y="273.13635"
-       id="text1246-2-4-13-9-78-9-3-5-0-1"><tspan
-         sodipodi:role="line"
-         id="tspan1244-4-8-8-3-5-2-0-6-2-7"
-         x="153.91203"
-         y="273.13635"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.90112376px;font-family:'Latin Modern Math';-inkscape-font-specification:'Latin Modern Math';text-align:start;text-anchor:start;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">g</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222223px;line-height:125%;font-family:'DejaVu Serif';-inkscape-font-specification:'DejaVu Serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       x="160.09741"
-       y="273.80139"
-       id="text1246-2-4-13-72-4-0"><tspan
-         sodipodi:role="line"
-         id="tspan1244-4-8-8-5-9-3"
-         x="160.09741"
-         y="273.80139"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222223px;font-family:'DejaVu Serif';-inkscape-font-specification:'DejaVu Serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">max,i</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.90112376px;line-height:125%;font-family:'DejaVu Serif';-inkscape-font-specification:'DejaVu Serif Italic';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#2000f3;fill-opacity:1;stroke:none;stroke-width:0.36573032px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="165.47763"
-       y="273.13635"
-       id="text1246-2-4-13-9-78-9-3-5-0-1-5"><tspan
-         sodipodi:role="line"
-         id="tspan1244-4-8-8-3-5-2-0-6-2-7-9"
-         x="165.47763"
-         y="273.13635"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.90112376px;font-family:'Latin Modern Math';-inkscape-font-specification:'Latin Modern Math';text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.36573032px">f</tspan></text>
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px">Action potential model</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777767px;line-height:114.99999762%;font-family:Arial;-inkscape-font-specification:Arial;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;shape-padding:0;opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        x="160.47333"
-       y="287.0578"
+       y="288.0578"
        id="text10532"><tspan
          sodipodi:role="line"
          id="tspan10530"
          x="160.47333"
-         y="287.0578"
+         y="288.0578"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777767px;line-height:114.99999762%;font-family:Arial;-inkscape-font-specification:Arial;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;shape-padding:0;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">maximum conductance</tspan><tspan
          sodipodi:role="line"
          x="160.47333"
-         y="291.11475"
+         y="292.11475"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777767px;line-height:114.99999762%;font-family:Arial;-inkscape-font-specification:Arial;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;shape-padding:0;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
          id="tspan10534">(or permeability)</tspan><tspan
          sodipodi:role="line"
          x="160.47333"
-         y="295.17169"
+         y="296.17169"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777767px;line-height:114.99999762%;font-family:Arial;-inkscape-font-specification:Arial;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;shape-padding:0;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
          id="tspan10587">parameter</tspan></text>
     <path
        style="color:#000000;overflow:visible;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#030303;stroke-width:0.34999999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.69999998, 0.69999998;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-end:url(#marker18687);paint-order:markers fill stroke"
-       d="m 158.90206,284.11109 c -0.67925,-2.18607 -0.93859,-5.65723 -1.24197,-7.94862"
+       d="m 158.74749,284.7885 c -0.5666,-1.82351 -0.78293,-4.71898 -1.03599,-6.63034"
        id="path10620"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc" />
-    <text
-       xml:space="preserve"
-       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.90112376px;line-height:125%;font-family:'DejaVu Serif';-inkscape-font-specification:'DejaVu Serif Italic';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#2000f3;fill-opacity:1;stroke:none;stroke-width:0.36573032px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="167.80887"
-       y="273.13635"
-       id="text1246-2-4-13-9-78-9-3-5-0-1-5-0"><tspan
-         sodipodi:role="line"
-         id="tspan1244-4-8-8-3-5-2-0-6-2-7-9-3"
-         x="167.80887"
-         y="273.13635"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.90112376px;font-family:'Latin Modern Math';-inkscape-font-specification:'Latin Modern Math';text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.36573032px">(...)</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.90112376px;line-height:125%;font-family:'DejaVu Serif';-inkscape-font-specification:'DejaVu Serif Italic';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#2000f3;fill-opacity:1;stroke:none;stroke-width:0.36573032px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="167.92795"
-       y="265.54422"
-       id="text1246-2-4-13-9-78-9-3-5-3"><tspan
-         sodipodi:role="line"
-         id="tspan1244-4-8-8-3-5-2-0-6-1"
-         x="167.92795"
-         y="265.54422"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222223px;font-family:'Latin Modern Math';-inkscape-font-specification:'Latin Modern Math';text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.36573032px">i</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.90112376px;line-height:125%;font-family:'DejaVu Serif';-inkscape-font-specification:'DejaVu Serif Italic';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#2000f3;fill-opacity:1;stroke:none;stroke-width:0.36573032px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="162.82753"
-       y="267.89902"
-       id="text1246-2-4-13-9-78-9-3-5-3-7"><tspan
-         sodipodi:role="line"
-         id="tspan1244-4-8-8-3-5-2-0-6-1-2"
-         x="162.82753"
-         y="267.89902"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222223px;font-family:'Latin Modern Math';-inkscape-font-specification:'Latin Modern Math';text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.36573032px">i</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.90112376px;line-height:125%;font-family:'DejaVu Serif';-inkscape-font-specification:'DejaVu Serif Italic';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#2000f3;fill-opacity:1;stroke:none;stroke-width:0.36573032px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="145.84917"
-       y="273.12372"
-       id="text1246-2-4-13-9-78-9-3-5-8"><tspan
-         sodipodi:role="line"
-         id="tspan1244-4-8-8-3-5-2-0-6-29"
-         x="145.84917"
-         y="273.12372"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.90112376px;font-family:'Latin Modern Math';-inkscape-font-specification:'Latin Modern Math';text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.36573032px">I</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.90112376px;line-height:125%;font-family:'DejaVu Serif';-inkscape-font-specification:'DejaVu Serif Italic';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#2000f3;fill-opacity:1;stroke:none;stroke-width:0.36573032px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="147.44341"
-       y="273.75146"
-       id="text1246-2-4-13-9-78-9-3-5-3-9"><tspan
-         sodipodi:role="line"
-         id="tspan1244-4-8-8-3-5-2-0-6-1-6"
-         x="147.44341"
-         y="273.75146"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222223px;font-family:'Latin Modern Math';-inkscape-font-specification:'Latin Modern Math';text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.36573032px">i</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.90112376px;line-height:125%;font-family:'DejaVu Serif';-inkscape-font-specification:'DejaVu Serif Italic';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#2000f3;fill-opacity:1;stroke:none;stroke-width:0.36573032px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="166.82985"
-       y="273.75146"
-       id="text1246-2-4-13-9-78-9-3-5-3-9-0"><tspan
-         sodipodi:role="line"
-         id="tspan1244-4-8-8-3-5-2-0-6-1-6-2"
-         x="166.82985"
-         y="273.75146"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222223px;font-family:'Latin Modern Math';-inkscape-font-specification:'Latin Modern Math';text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.36573032px">i</tspan></text>
+    <g
+       id="g2192"
+       transform="translate(-0.33119236,0.5032114)">
+      <text
+         id="text1246-2-4-13-9-78"
+         y="262.20529"
+         x="143.3558"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.90112376px;line-height:125%;font-family:'DejaVu Serif';-inkscape-font-specification:'DejaVu Serif Italic';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#2000f3;fill-opacity:1;stroke:none;stroke-width:0.36573032px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.90112376px;font-family:'Latin Modern Math';-inkscape-font-specification:'Latin Modern Math';text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.36573032px"
+           y="262.20529"
+           x="143.3558"
+           id="tspan1244-4-8-8-3-5"
+           sodipodi:role="line">dV</tspan></text>
+      <text
+         id="text1246-2-4-13-9-78-9"
+         y="267.23547"
+         x="144.13214"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.90112376px;line-height:125%;font-family:'DejaVu Serif';-inkscape-font-specification:'DejaVu Serif Italic';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#2000f3;fill-opacity:1;stroke:none;stroke-width:0.36573032px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.90112376px;font-family:'Latin Modern Math';-inkscape-font-specification:'Latin Modern Math';text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.36573032px"
+           y="267.23547"
+           x="144.13214"
+           id="tspan1244-4-8-8-3-5-2"
+           sodipodi:role="line">dt</tspan></text>
+      <text
+         id="text1246-2-4-13-9-78-7"
+         y="264.64966"
+         x="149.83539"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.90112376px;line-height:125%;font-family:'DejaVu Serif';-inkscape-font-specification:'DejaVu Serif Italic';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#2000f3;fill-opacity:1;stroke:none;stroke-width:0.36573032px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.90112376px;font-family:'Latin Modern Math';-inkscape-font-specification:'Latin Modern Math';text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.36573032px"
+           y="264.64966"
+           x="149.83539"
+           id="tspan1244-4-8-8-3-5-3"
+           sodipodi:role="line">=</tspan></text>
+      <path
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path9670"
+         d="m 143.14867,263.63135 h 5.53132"
+         style="color:#000000;overflow:visible;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#030303;stroke-width:0.20734319;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;paint-order:markers fill stroke" />
+      <path
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path9670-4"
+         d="m 157.01966,263.66407 h 3.31578"
+         style="color:#000000;overflow:visible;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#030303;stroke-width:0.20734319;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;paint-order:markers fill stroke" />
+      <path
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path9670-7"
+         d="m 154.41655,263.63135 h 1.79353"
+         style="color:#000000;overflow:visible;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#030303;stroke-width:0.27645758;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;paint-order:markers fill stroke" />
+      <text
+         id="text1246-2-4-13-9-78-1"
+         y="262.1236"
+         x="157.76181"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.90112376px;line-height:125%;font-family:'DejaVu Serif';-inkscape-font-specification:'DejaVu Serif Italic';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#2000f3;fill-opacity:1;stroke:none;stroke-width:0.36573032px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.90112376px;font-family:'Latin Modern Math';-inkscape-font-specification:'Latin Modern Math';text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.36573032px"
+           y="262.1236"
+           x="157.76181"
+           id="tspan1244-4-8-8-3-5-6"
+           sodipodi:role="line">1</tspan></text>
+      <text
+         id="text1246-2-4-13-9-78-9-3"
+         y="267.28452"
+         x="157.26456"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.90112376px;line-height:125%;font-family:'DejaVu Serif';-inkscape-font-specification:'DejaVu Serif Italic';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#2000f3;fill-opacity:1;stroke:none;stroke-width:0.36573032px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.90112376px;font-family:'Latin Modern Math';-inkscape-font-specification:'Latin Modern Math';text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.36573032px"
+           y="267.28452"
+           x="157.26456"
+           id="tspan1244-4-8-8-3-5-2-0"
+           sodipodi:role="line">C</tspan></text>
+      <text
+         id="text1246-2-4-13-9-78-2"
+         y="266.3595"
+         x="161.09937"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.77712965px;line-height:125%;font-family:'DejaVu Serif';-inkscape-font-specification:'DejaVu Serif Italic';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#2000f3;fill-opacity:1;stroke:none;stroke-width:0.72910589px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.77712965px;font-family:'Latin Modern Math';-inkscape-font-specification:'Latin Modern Math';text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.72910589px"
+           y="266.3595"
+           x="161.09937"
+           id="tspan1244-4-8-8-3-5-1"
+           sodipodi:role="line">Σ</tspan></text>
+      <text
+         id="text1246-2-4-13-9-78-9-3-5"
+         y="264.58936"
+         x="167.54399"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.90112376px;line-height:125%;font-family:'DejaVu Serif';-inkscape-font-specification:'DejaVu Serif Italic';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#2000f3;fill-opacity:1;stroke:none;stroke-width:0.36573032px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.90112376px;font-family:'Latin Modern Math';-inkscape-font-specification:'Latin Modern Math';text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.36573032px"
+           y="264.58936"
+           x="167.54399"
+           id="tspan1244-4-8-8-3-5-2-0-6"
+           sodipodi:role="line">I</tspan></text>
+      <text
+         id="text1246-2-4-13-9-78-9-3-5-3"
+         y="265.29889"
+         x="169.1873"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.90112376px;line-height:125%;font-family:'DejaVu Serif';-inkscape-font-specification:'DejaVu Serif Italic';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#2000f3;fill-opacity:1;stroke:none;stroke-width:0.36573032px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222223px;font-family:'Latin Modern Math';-inkscape-font-specification:'Latin Modern Math';text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.36573032px"
+           y="265.29889"
+           x="169.1873"
+           id="tspan1244-4-8-8-3-5-2-0-6-1"
+           sodipodi:role="line">i</tspan></text>
+      <text
+         id="text1246-2-4-13-9-78-9-3-5-3-7"
+         y="269.04388"
+         x="163.66165"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.90112376px;line-height:125%;font-family:'DejaVu Serif';-inkscape-font-specification:'DejaVu Serif Italic';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#2000f3;fill-opacity:1;stroke:none;stroke-width:0.36573032px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222223px;font-family:'Latin Modern Math';-inkscape-font-specification:'Latin Modern Math';text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.36573032px"
+           y="269.04388"
+           x="163.66165"
+           id="tspan1244-4-8-8-3-5-2-0-6-1-2"
+           sodipodi:role="line">i</tspan></text>
+    </g>
+    <g
+       id="g2169"
+       transform="translate(0,1)">
+      <g
+         transform="translate(0,1)"
+         id="g2046">
+        <text
+           xml:space="preserve"
+           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.90112376px;line-height:125%;font-family:'DejaVu Serif';-inkscape-font-specification:'DejaVu Serif Italic';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#2000f3;fill-opacity:1;stroke:none;stroke-width:0.36573032px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="149.46422"
+           y="273.1333"
+           id="text1246-2-4-13-9-78-7-9"><tspan
+             sodipodi:role="line"
+             id="tspan1244-4-8-8-3-5-3-0"
+             x="149.46422"
+             y="273.1333"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.90112376px;font-family:'Latin Modern Math';-inkscape-font-specification:'Latin Modern Math';text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.36573032px">=</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.90112376px;line-height:125%;font-family:'DejaVu Serif';-inkscape-font-specification:'DejaVu Serif Italic';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           x="153.65031"
+           y="273.13635"
+           id="text1246-2-4-13-9-78-9-3-5-0-1"><tspan
+             sodipodi:role="line"
+             id="tspan1244-4-8-8-3-5-2-0-6-2-7"
+             x="153.65031"
+             y="273.13635"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.90112376px;font-family:'Latin Modern Math';-inkscape-font-specification:'Latin Modern Math';text-align:start;text-anchor:start;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">g</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222223px;line-height:125%;font-family:'DejaVu Serif';-inkscape-font-specification:'DejaVu Serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           x="159.37778"
+           y="273.88318"
+           id="text1246-2-4-13-72-4-0"><tspan
+             sodipodi:role="line"
+             id="tspan1244-4-8-8-5-9-3"
+             x="159.37778"
+             y="273.88318"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222223px;font-family:'DejaVu Serif';-inkscape-font-specification:'DejaVu Serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">max,i</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.90112376px;line-height:125%;font-family:'DejaVu Serif';-inkscape-font-specification:'DejaVu Serif Italic';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#2000f3;fill-opacity:1;stroke:none;stroke-width:0.36573032px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="164.18558"
+           y="273.18915"
+           id="text1246-2-4-13-9-78-9-3-5-0-1-5"><tspan
+             sodipodi:role="line"
+             id="tspan1244-4-8-8-3-5-2-0-6-2-7-9"
+             x="164.18558"
+             y="273.18915"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.90112376px;font-family:'Latin Modern Math';-inkscape-font-specification:'Latin Modern Math';text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.36573032px">f</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.90112376px;line-height:125%;font-family:'DejaVu Serif';-inkscape-font-specification:'DejaVu Serif Italic';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#2000f3;fill-opacity:1;stroke:none;stroke-width:0.36573032px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="166.07523"
+           y="273.21814"
+           id="text1246-2-4-13-9-78-9-3-5-0-1-5-0"><tspan
+             sodipodi:role="line"
+             id="tspan1244-4-8-8-3-5-2-0-6-2-7-9-3"
+             x="166.07523"
+             y="273.21814"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.90112376px;font-family:'Latin Modern Math';-inkscape-font-specification:'Latin Modern Math';text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.36573032px">(...)</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.90112376px;line-height:125%;font-family:'DejaVu Serif';-inkscape-font-specification:'DejaVu Serif Italic';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#2000f3;fill-opacity:1;stroke:none;stroke-width:0.36573032px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="145.86552"
+           y="273.18915"
+           id="text1246-2-4-13-9-78-9-3-5-8"><tspan
+             sodipodi:role="line"
+             id="tspan1244-4-8-8-3-5-2-0-6-29"
+             x="145.86552"
+             y="273.18915"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.90112376px;font-family:'Latin Modern Math';-inkscape-font-specification:'Latin Modern Math';text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.36573032px">I</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.90112376px;line-height:125%;font-family:'DejaVu Serif';-inkscape-font-specification:'DejaVu Serif Italic';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#2000f3;fill-opacity:1;stroke:none;stroke-width:0.36573032px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="147.44341"
+           y="273.75146"
+           id="text1246-2-4-13-9-78-9-3-5-3-9"><tspan
+             sodipodi:role="line"
+             id="tspan1244-4-8-8-3-5-2-0-6-1-6"
+             x="147.44341"
+             y="273.75146"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222223px;font-family:'Latin Modern Math';-inkscape-font-specification:'Latin Modern Math';text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.36573032px">i</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.90112376px;line-height:125%;font-family:'DejaVu Serif';-inkscape-font-specification:'DejaVu Serif Italic';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#2000f3;fill-opacity:1;stroke:none;stroke-width:0.36573032px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="165.5705"
+           y="274.12762"
+           id="text1246-2-4-13-9-78-9-3-5-3-9-0"><tspan
+             sodipodi:role="line"
+             id="tspan1244-4-8-8-3-5-2-0-6-1-6-2"
+             x="165.5705"
+             y="274.12762"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222223px;font-family:'Latin Modern Math';-inkscape-font-specification:'Latin Modern Math';text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.36573032px">i</tspan></text>
+      </g>
+    </g>
     <text
        xml:space="preserve"
        style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.90112376px;line-height:125%;font-family:'DejaVu Serif';-inkscape-font-specification:'DejaVu Serif Italic';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#2000f3;fill-opacity:1;stroke:none;stroke-width:0.36573038px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="54.251633"
+       x="53.662857"
        y="284.75629"
        id="text1246-2-4-13-9-4-2-8"><tspan
          sodipodi:role="line"
          id="tspan1244-4-8-8-3-1-7-9"
-         x="54.251633"
+         x="53.662857"
          y="284.75629"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.90112376px;font-family:'Latin Modern Math';-inkscape-font-specification:'Latin Modern Math';text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.36573038px">)</tspan></text>
   </g>
