@@ -2,7 +2,8 @@
 
 Dominic G. Whittaker, Michael Clerx, Chon Lok Lei, David J. Christini, Gary R. Mirams
 
-![Graphical abstract](./fig0-abstract/abstract.png "Logo Title Text 1")
+![Graphical abstract](./fig0-abstract/abstract.png)
+
 Models of the cardiac action potential (center) are composed of several ion current submodels (top).
 Both the submodels and the combined model require calibration to experimental data.
 We discuss the classic and latest approaches to calibration in electrophysiology field, highlighting important concepts, common pitfalls, and open challenges.
