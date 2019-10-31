@@ -2,6 +2,9 @@
 
 This figure contains cell model schematics taken from the Physiome model repository <https://models.physiomeproject.org/> under a CC BY license, as shown below:
 
+<p align="center">
+  <img height="500" src="https://github.com/CardiacModelling/WIRES/blob/master/fig6-evolution-model-complexity/evolution-model-complexity.png">
+</p>
 
 Details regarding the original publications in which each model appeared, and a permanent source URI are provided below.
 
