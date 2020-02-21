@@ -30,4 +30,7 @@ This repository contains codes and source files necessary to reproduce examples 
 
 If you publish any work based on the contents of this repository please cite:
 
-[PLACEHOLDER]
+Whittaker, DG, Clerx, M, Lei, CL, Christini, DJ, Mirams, GR.
+Calibration of ionic and cellular cardiac electrophysiology models.
+_WIREs Syst Biol Med_. 2020;e1482.
+<https://doi.org/10.1002/wsbm.1482>
