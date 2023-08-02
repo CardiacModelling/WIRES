@@ -1,0 +1,17 @@
+To cite this work, please use:
+
+Whittaker, D. G., Clerx, M., Lei, C. L., Christini, D. J., & Mirams, G. R. (2020). Calibration of ionic and cellular cardiac electrophysiology models. Wiley Interdisciplinary Reviews: Systems Biology and Medicine, 12(4), e1482.
+https://doi.org/10.1002/wsbm.1482
+
+A BibTeX entry for LaTeX users is
+
+@article{whittaker2020calibration,
+  title={Calibration of ionic and cellular cardiac electrophysiology models},
+  author={Whittaker, Dominic G and Clerx, Michael and Lei, Chon Lok and Christini, David J and Mirams, Gary R},
+  journal={Wiley Interdisciplinary Reviews: Systems Biology and Medicine},
+  volume={12},
+  number={4},
+  pages={e1482},
+  year={2020},
+  publisher={Wiley Online Library}
+}
