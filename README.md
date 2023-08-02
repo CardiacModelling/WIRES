@@ -28,6 +28,6 @@ This repository contains codes and source files necessary to reproduce examples 
 
 ## Acknowledging this work
 
-If you publish any work based on the contents of this repository please cite it using the information given in the [CITATION](./CITATION) file.
+To cite this work, please use the information given in the [CITATION](./CITATION) file.
 
 
