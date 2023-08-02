@@ -28,9 +28,6 @@ This repository contains codes and source files necessary to reproduce examples 
 
 ## Acknowledging this work
 
-If you publish any work based on the contents of this repository please cite:
+If you publish any work based on the contents of this repository please cite it using the information given in the [CITATION](./CITATION) file.
 
-Whittaker, D. G., Clerx, M., Lei, C. L., Christini, D. J., Mirams, G. R.
-Calibration of ionic and cellular cardiac electrophysiology models.
-_WIREs Syst Biol Med_. 2020;e1482.
-<https://doi.org/10.1002/wsbm.1482>
+
